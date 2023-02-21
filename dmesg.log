@@ -1,0 +1,1535 @@
+[    0.356039] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.356143] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.356439] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[    0.356532] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.356637] MPTCP token hash table entries: 16384 (order: 6, 393216 bytes, linear)
+[    0.356687] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.356729] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.356786] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.356792] NET: Registered PF_XDP protocol family
+[    0.356807] pci 0000:00:02.1: PCI bridge to [bus 01]
+[    0.356813] pci 0000:00:02.1:   bridge window [mem 0xd0700000-0xd07fffff]
+[    0.356818] pci 0000:00:02.3: PCI bridge to [bus 02]
+[    0.356820] pci 0000:00:02.3:   bridge window [mem 0xd0600000-0xd06fffff]
+[    0.356824] pci 0000:00:02.4: PCI bridge to [bus 03]
+[    0.356826] pci 0000:00:02.4:   bridge window [io  0x2000-0x2fff]
+[    0.356828] pci 0000:00:02.4:   bridge window [mem 0xd0500000-0xd05fffff]
+[    0.356834] pci 0000:00:08.1: PCI bridge to [bus 04]
+[    0.356835] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    0.356838] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    0.356839] pci 0000:00:08.1:   bridge window [mem 0xfc90000000-0xfca01fffff 64bit pref]
+[    0.356843] pci 0000:00:08.2: PCI bridge to [bus 05]
+[    0.356845] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    0.356850] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    0.356851] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    0.356852] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    0.356853] pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000cffff window]
+[    0.356854] pci_bus 0000:00: resource 8 [mem 0x000d0000-0x000effff window]
+[    0.356855] pci_bus 0000:00: resource 9 [mem 0xd0000000-0xf7ffffff window]
+[    0.356856] pci_bus 0000:00: resource 10 [mem 0xfc000000-0xfeafffff window]
+[    0.356857] pci_bus 0000:00: resource 11 [mem 0xfed45000-0xfed811ff window]
+[    0.356858] pci_bus 0000:00: resource 12 [mem 0xfed81900-0xfed81fff window]
+[    0.356859] pci_bus 0000:00: resource 13 [mem 0xfedc0000-0xfedc0fff window]
+[    0.356860] pci_bus 0000:00: resource 14 [mem 0xfedc6000-0xfedc6fff window]
+[    0.356861] pci_bus 0000:00: resource 15 [mem 0x450200000-0xfcafffffff window]
+[    0.356862] pci_bus 0000:01: resource 1 [mem 0xd0700000-0xd07fffff]
+[    0.356864] pci_bus 0000:02: resource 1 [mem 0xd0600000-0xd06fffff]
+[    0.356865] pci_bus 0000:03: resource 0 [io  0x2000-0x2fff]
+[    0.356866] pci_bus 0000:03: resource 1 [mem 0xd0500000-0xd05fffff]
+[    0.356867] pci_bus 0000:04: resource 0 [io  0x1000-0x1fff]
+[    0.356868] pci_bus 0000:04: resource 1 [mem 0xd0100000-0xd04fffff]
+[    0.356868] pci_bus 0000:04: resource 2 [mem 0xfc90000000-0xfca01fffff 64bit pref]
+[    0.356870] pci_bus 0000:05: resource 1 [mem 0xd0000000-0xd00fffff]
+[    0.356981] pci 0000:04:00.1: D0 power state depends on 0000:04:00.0
+[    0.357017] pci 0000:04:00.3: extending delay after power-on from D3hot to 20 msec
+[    0.358349] pci 0000:04:00.4: extending delay after power-on from D3hot to 20 msec
+[    0.369566] pci 0000:04:00.4: quirk_usb_early_handoff+0x0/0x750 took 10952 usecs
+[    0.369581] PCI: CLS 64 bytes, default 64
+[    0.369592] pci 0000:00:00.2: AMD-Vi: IOMMU performance counters supported
+[    0.369629] Trying to unpack rootfs image as initramfs...
+[    0.369639] pci 0000:00:01.0: Adding to iommu group 0
+[    0.369652] pci 0000:00:02.0: Adding to iommu group 1
+[    0.369662] pci 0000:00:02.1: Adding to iommu group 2
+[    0.369669] pci 0000:00:02.3: Adding to iommu group 3
+[    0.369677] pci 0000:00:02.4: Adding to iommu group 4
+[    0.369688] pci 0000:00:08.0: Adding to iommu group 5
+[    0.369697] pci 0000:00:08.1: Adding to iommu group 6
+[    0.369705] pci 0000:00:08.2: Adding to iommu group 7
+[    0.369721] pci 0000:00:14.0: Adding to iommu group 8
+[    0.369728] pci 0000:00:14.3: Adding to iommu group 8
+[    0.369750] pci 0000:00:18.0: Adding to iommu group 9
+[    0.369758] pci 0000:00:18.1: Adding to iommu group 9
+[    0.369765] pci 0000:00:18.2: Adding to iommu group 9
+[    0.369771] pci 0000:00:18.3: Adding to iommu group 9
+[    0.369777] pci 0000:00:18.4: Adding to iommu group 9
+[    0.369784] pci 0000:00:18.5: Adding to iommu group 9
+[    0.369792] pci 0000:00:18.6: Adding to iommu group 9
+[    0.369799] pci 0000:00:18.7: Adding to iommu group 9
+[    0.369808] pci 0000:01:00.0: Adding to iommu group 10
+[    0.369816] pci 0000:02:00.0: Adding to iommu group 11
+[    0.369825] pci 0000:03:00.0: Adding to iommu group 12
+[    0.369842] pci 0000:04:00.0: Adding to iommu group 13
+[    0.369852] pci 0000:04:00.1: Adding to iommu group 14
+[    0.369861] pci 0000:04:00.2: Adding to iommu group 15
+[    0.369870] pci 0000:04:00.3: Adding to iommu group 16
+[    0.369878] pci 0000:04:00.4: Adding to iommu group 17
+[    0.369888] pci 0000:04:00.5: Adding to iommu group 18
+[    0.369897] pci 0000:04:00.6: Adding to iommu group 19
+[    0.369906] pci 0000:05:00.0: Adding to iommu group 20
+[    0.369916] pci 0000:05:00.1: Adding to iommu group 21
+[    0.371826] pci 0000:00:00.2: can't derive routing for PCI INT A
+[    0.371830] pci 0000:00:00.2: PCI INT A: not connected
+[    0.372135] pci 0000:00:00.2: AMD-Vi: Found IOMMU cap 0x40
+[    0.372136] AMD-Vi: Extended features (0x206d73ef22254ade, 0x0): PPR X2APIC NX GT IA GA PC GA_vAPIC
+[    0.372142] AMD-Vi: Interrupt remapping enabled
+[    0.372142] AMD-Vi: X2APIC enabled
+[    0.372183] AMD-Vi: Virtual APIC enabled
+[    0.372279] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.372280] software IO TLB: mapped [mem 0x00000000c407b000-0x00000000c807b000] (64MB)
+[    0.372319] LVT offset 0 assigned for vector 0x400
+[    0.378604] perf: AMD IBS detected (0x000003ff)
+[    0.378614] perf/amd_iommu: Detected AMD IOMMU #0 (2 banks, 4 counters/bank).
+[    0.380560] Initialise system trusted keyrings
+[    0.380572] Key type blacklist registered
+[    0.380609] workingset: timestamp_bits=41 max_order=22 bucket_order=0
+[    0.381422] zbud: loaded
+[    0.381606] integrity: Platform Keyring initialized
+[    0.381608] integrity: Machine keyring initialized
+[    0.384111] Key type asymmetric registered
+[    0.384112] Asymmetric key parser 'x509' registered
+[    0.461897] Freeing initrd memory: 31272K
+[    0.465336] alg: self-tests for CTR-KDF (hmac(sha256)) passed
+[    0.465372] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[    0.465427] io scheduler mq-deadline registered
+[    0.465431] io scheduler kyber registered
+[    0.465492] io scheduler bfq registered
+[    0.467058] pcieport 0000:00:02.1: PME: Signaling with IRQ 33
+[    0.467154] pcieport 0000:00:02.3: PME: Signaling with IRQ 34
+[    0.467236] pcieport 0000:00:02.4: PME: Signaling with IRQ 35
+[    0.467320] pcieport 0000:00:08.1: PME: Signaling with IRQ 36
+[    0.467467] pcieport 0000:00:08.2: PME: Signaling with IRQ 37
+[    0.467540] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    0.468182] ACPI: AC: AC Adapter [ACAD] (on-line)
+[    0.468220] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[    0.468230] ACPI: button: Lid Switch [LID]
+[    0.468247] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[    0.468257] ACPI: button: Power Button [PWRB]
+[    0.468309] Estimated ratio of average max frequency by base frequency (times 1024): 1755
+[    0.468321] Monitor-Mwait will be used to enter C-1 state
+[    0.468324] ACPI: \_SB_.PLTF.C000: Found 3 idle states
+[    0.468407] ACPI: \_SB_.PLTF.C001: Found 3 idle states
+[    0.468484] ACPI: \_SB_.PLTF.C002: Found 3 idle states
+[    0.468575] ACPI: \_SB_.PLTF.C003: Found 3 idle states
+[    0.468643] ACPI: \_SB_.PLTF.C004: Found 3 idle states
+[    0.468729] ACPI: \_SB_.PLTF.C005: Found 3 idle states
+[    0.468794] ACPI: \_SB_.PLTF.C006: Found 3 idle states
+[    0.468885] ACPI: \_SB_.PLTF.C007: Found 3 idle states
+[    0.468992] ACPI: \_SB_.PLTF.C008: Found 3 idle states
+[    0.469102] ACPI: \_SB_.PLTF.C009: Found 3 idle states
+[    0.469181] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+[    0.469279] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+[    0.469352] ACPI: \_SB_.PLTF.C00C: Found 3 idle states
+[    0.469419] ACPI: \_SB_.PLTF.C00D: Found 3 idle states
+[    0.469534] ACPI: \_SB_.PLTF.C00E: Found 3 idle states
+[    0.469638] ACPI: \_SB_.PLTF.C00F: Found 3 idle states
+[    0.470109] thermal LNXTHERM:00: registered as thermal_zone0
+[    0.470113] ACPI: thermal: Thermal Zone [TZ01] (43 C)
+[    0.470329] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    0.471287] Non-volatile memory driver v1.3
+[    0.471288] Linux agpgart interface v0.103
+[    0.498164] AMD-Vi: AMD IOMMUv2 loaded and initialized
+[    0.498250] ACPI: bus type drm_connector registered
+[    0.500420] ahci 0000:05:00.0: version 3.0
+[    0.500549] ahci 0000:05:00.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    0.500551] ahci 0000:05:00.0: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part deso sadm sds 
+[    0.500731] scsi host0: ahci
+[    0.500773] ata1: SATA max UDMA/133 abar m2048@0xd0001000 port 0xd0001100 irq 39
+[    0.500876] ahci 0000:05:00.1: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    0.500878] ahci 0000:05:00.1: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part 
+[    0.501037] scsi host1: ahci
+[    0.501059] ata2: SATA max UDMA/133 abar m2048@0xd0000000 port 0xd0000100 irq 41
+[    0.501126] usbcore: registered new interface driver usbserial_generic
+[    0.501129] usbserial: USB Serial support registered for generic
+[    0.501215] rtc_cmos 00:01: RTC can wake from S4
+[    0.501425] rtc_cmos 00:01: registered as rtc0
+[    0.501449] rtc_cmos 00:01: setting system clock to 2023-02-13T22:32:05 UTC (1676327525)
+[    0.501469] rtc_cmos 00:01: alarms up to one month, 114 bytes nvram, hpet irqs
+[    0.501701] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.501778] efifb: probing for efifb
+[    0.501788] efifb: showing boot graphics
+[    0.503185] efifb: framebuffer at 0xfc90000000, using 9024k, total 9024k
+[    0.503188] efifb: mode is 1920x1200x32, linelength=7680, pages=1
+[    0.503191] efifb: scrolling: redraw
+[    0.503192] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[    0.503289] fbcon: Deferring console take-over
+[    0.503291] fb0: EFI VGA frame buffer device
+[    0.503334] hid: raw HID events driver (C) Jiri Kosina
+[    0.503504] drop_monitor: Initializing network drop monitor service
+[    0.512594] Initializing XFRM netlink socket
+[    0.512674] NET: Registered PF_INET6 protocol family
+[    0.514962] Segment Routing with IPv6
+[    0.514965] RPL Segment Routing with IPv6
+[    0.514979] In-situ OAM (IOAM) with IPv6
+[    0.515021] NET: Registered PF_PACKET protocol family
+[    0.516449] microcode: CPU0: patch_level=0x08608103
+[    0.516456] microcode: CPU1: patch_level=0x08608103
+[    0.516462] microcode: CPU2: patch_level=0x08608103
+[    0.516467] microcode: CPU3: patch_level=0x08608103
+[    0.516479] microcode: CPU4: patch_level=0x08608103
+[    0.516484] microcode: CPU5: patch_level=0x08608103
+[    0.516502] microcode: CPU6: patch_level=0x08608103
+[    0.516510] microcode: CPU7: patch_level=0x08608103
+[    0.516532] microcode: CPU8: patch_level=0x08608103
+[    0.516542] microcode: CPU9: patch_level=0x08608103
+[    0.516563] microcode: CPU10: patch_level=0x08608103
+[    0.516572] microcode: CPU11: patch_level=0x08608103
+[    0.516587] microcode: CPU12: patch_level=0x08608103
+[    0.516592] microcode: CPU13: patch_level=0x08608103
+[    0.516610] microcode: CPU14: patch_level=0x08608103
+[    0.516619] microcode: CPU15: patch_level=0x08608103
+[    0.516625] microcode: Microcode Update Driver: v2.2.
+[    0.516890] resctrl: L3 allocation detected
+[    0.516892] resctrl: MB allocation detected
+[    0.516893] resctrl: L3 monitoring detected
+[    0.516898] IPI shorthand broadcast: enabled
+[    0.516921] sched_clock: Marking stable (516497272, 383922)->(531978762, -15097568)
+[    0.517319] registered taskstats version 1
+[    0.517830] Loading compiled-in X.509 certificates
+[    0.520507] ACPI: battery: Slot [BAT1] (battery present)
+[    0.520687] Loaded X.509 cert 'Build time autogenerated kernel key: 27eb0b0c95e963027fd8ddb4a5b1393304e3fbb8'
+[    0.521356] zswap: loaded using pool lz4/z3fold
+[    0.521660] Key type .fscrypt registered
+[    0.521662] Key type fscrypt-provisioning registered
+[    0.522589] integrity: Loading X.509 certificate: UEFI:db
+[    0.522632] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[    0.522633] integrity: Loading X.509 certificate: UEFI:db
+[    0.522660] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[    0.522662] integrity: Loading X.509 certificate: UEFI:db
+[    0.523012] integrity: Loaded X.509 cert 'OK Certificate: c8c73a37546046ab495c33f4d0856052'
+[    0.531364] PM:   Magic number: 11:763:552
+[    0.531374] tty ttyS28: hash matches
+[    0.531389] clockevents clockevent3: hash matches
+[    0.531421] acpi STK0004:00: hash matches
+[    0.531424] acpi PNP0C0F:03: hash matches
+[    0.531542] RAS: Correctable Errors collector initialized.
+[    0.815845] ata1: SATA link down (SStatus 0 SControl 300)
+[    0.818716] ata2: SATA link down (SStatus 0 SControl 300)
+[    0.821284] Freeing unused decrypted memory: 2036K
+[    0.821563] Freeing unused kernel image (initmem) memory: 2140K
+[    0.821567] Write protecting the kernel read-only data: 30720k
+[    0.822007] Freeing unused kernel image (text/rodata gap) memory: 2040K
+[    0.822203] Freeing unused kernel image (rodata/data gap) memory: 1212K
+[    0.852237] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    0.852242] rodata_test: all tests were successful
+[    0.852248] Run /init as init process
+[    0.852249]   with arguments:
+[    0.852250]     /init
+[    0.852251]   with environment:
+[    0.852251]     HOME=/
+[    0.852252]     TERM=linux
+[    0.852252]     BOOT_IMAGE=/vmlinuz-linux
+[    0.868498] fbcon: Taking over console
+[    0.868570] Console: switching to colour frame buffer device 240x75
+[    0.935436] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+[    0.935515] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0c/LNXVIDEO:00/input/input2
+[    0.938245] xhci_hcd 0000:04:00.3: xHCI Host Controller
+[    0.938252] xhci_hcd 0000:04:00.3: new USB bus registered, assigned bus number 1
+[    0.938348] xhci_hcd 0000:04:00.3: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    0.938662] xhci_hcd 0000:04:00.3: xHCI Host Controller
+[    0.938664] xhci_hcd 0000:04:00.3: new USB bus registered, assigned bus number 2
+[    0.938666] xhci_hcd 0000:04:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+[    0.938701] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+[    0.938703] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.938704] usb usb1: Product: xHCI Host Controller
+[    0.938705] usb usb1: Manufacturer: Linux 6.1.9-arch1-2 xhci-hcd
+[    0.938706] usb usb1: SerialNumber: 0000:04:00.3
+[    0.938821] hub 1-0:1.0: USB hub found
+[    0.938834] hub 1-0:1.0: 4 ports detected
+[    0.940210] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.940233] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.01
+[    0.940236] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.940238] usb usb2: Product: xHCI Host Controller
+[    0.940239] usb usb2: Manufacturer: Linux 6.1.9-arch1-2 xhci-hcd
+[    0.940241] usb usb2: SerialNumber: 0000:04:00.3
+[    0.940331] hub 2-0:1.0: USB hub found
+[    0.940341] hub 2-0:1.0: 2 ports detected
+[    0.941169] xhci_hcd 0000:04:00.4: xHCI Host Controller
+[    0.941177] xhci_hcd 0000:04:00.4: new USB bus registered, assigned bus number 3
+[    0.941279] xhci_hcd 0000:04:00.4: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    0.941635] xhci_hcd 0000:04:00.4: xHCI Host Controller
+[    0.941639] xhci_hcd 0000:04:00.4: new USB bus registered, assigned bus number 4
+[    0.941642] xhci_hcd 0000:04:00.4: Host supports USB 3.1 Enhanced SuperSpeed
+[    0.941681] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+[    0.941683] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.941685] usb usb3: Product: xHCI Host Controller
+[    0.941687] usb usb3: Manufacturer: Linux 6.1.9-arch1-2 xhci-hcd
+[    0.941688] usb usb3: SerialNumber: 0000:04:00.4
+[    0.941809] i8042: PNP: PS/2 Controller [PNP0303:KBC0] at 0x60,0x64 irq 1
+[    0.941810] hub 3-0:1.0: USB hub found
+[    0.941814] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+[    0.941825] hub 3-0:1.0: 4 ports detected
+[    0.942221] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.943100] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.943123] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.01
+[    0.943125] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.943127] usb usb4: Product: xHCI Host Controller
+[    0.943129] usb usb4: Manufacturer: Linux 6.1.9-arch1-2 xhci-hcd
+[    0.943130] usb usb4: SerialNumber: 0000:04:00.4
+[    0.943250] hub 4-0:1.0: USB hub found
+[    0.943256] hub 4-0:1.0: 2 ports detected
+[    0.947372] sdhci: Secure Digital Host Controller Interface driver
+[    0.947375] sdhci: Copyright(c) Pierre Ossman
+[    0.950432] nvme 0000:01:00.0: platform quirk: setting simple suspend
+[    0.950483] nvme nvme0: pci function 0000:01:00.0
+[    1.027639] nvme nvme0: 16/0/0 default/read/poll queues
+[    1.033527] nvme nvme0: Ignoring bogus Namespace Identifiers
+[    1.040504]  nvme0n1: p1 p2 p3
+[    1.047587] sdhci-pci 0000:02:00.0: SDHCI controller found [1217:8621] (rev 1)
+[    1.047670] sdhci-pci 0000:02:00.0: enabling device (0000 -> 0002)
+[    1.048163] mmc0: SDHCI controller on PCI [0000:02:00.0] using ADMA
+[    1.059609] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+[    1.184273] usb 1-3: new high-speed USB device number 2 using xhci_hcd
+[    1.184292] usb 3-3: new high-speed USB device number 2 using xhci_hcd
+[    1.331380] usb 1-3: New USB device found, idVendor=04f2, idProduct=b758, bcdDevice=30.18
+[    1.331388] usb 1-3: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[    1.331391] usb 1-3: Product: Integrated Camera
+[    1.331394] usb 1-3: Manufacturer: Chicony Electronics Co.,Ltd.
+[    1.331397] usb 1-3: SerialNumber: 0001
+[    1.331712] usb 3-3: New USB device found, idVendor=27c6, idProduct=55b4, bcdDevice= 1.00
+[    1.331717] usb 3-3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.331720] usb 3-3: Product: Goodix FingerPrint Device
+[    1.331723] usb 3-3: Manufacturer: Generic
+[    1.377646] tsc: Refined TSC clocksource calibration: 1796.616 MHz
+[    1.377658] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x19e5aceb4ab, max_idle_ns: 440795241307 ns
+[    1.378178] clocksource: Switched to clocksource tsc
+[    1.454576] usb 3-4: new full-speed USB device number 3 using xhci_hcd
+[    1.613780] usb 3-4: New USB device found, idVendor=0bda, idProduct=4853, bcdDevice= 0.00
+[    1.613788] usb 3-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    1.613792] usb 3-4: Product: Bluetooth Radio
+[    1.613795] usb 3-4: Manufacturer: Realtek
+[    1.613797] usb 3-4: SerialNumber: 00e04c000001
+[    2.413567] [drm] amdgpu kernel modesetting enabled.
+[    2.416014] amdgpu: Virtual CRAT table created for CPU
+[    2.416026] amdgpu: Topology: Add CPU node
+[    2.416124] amdgpu 0000:04:00.0: enabling device (0006 -> 0007)
+[    2.416166] [drm] initializing kernel modesetting (RENOIR 0x1002:0x164C 0x17AA:0x3803 0xC1).
+[    2.416208] [drm] register mmio base: 0xD0400000
+[    2.416209] [drm] register mmio size: 524288
+[    2.417553] [drm] add ip block number 0 <soc15_common>
+[    2.417555] [drm] add ip block number 1 <gmc_v9_0>
+[    2.417556] [drm] add ip block number 2 <vega10_ih>
+[    2.417557] [drm] add ip block number 3 <psp>
+[    2.417558] [drm] add ip block number 4 <smu>
+[    2.417559] [drm] add ip block number 5 <dm>
+[    2.417560] [drm] add ip block number 6 <gfx_v9_0>
+[    2.417561] [drm] add ip block number 7 <sdma_v4_0>
+[    2.417562] [drm] add ip block number 8 <vcn_v2_0>
+[    2.417563] [drm] add ip block number 9 <jpeg_v2_0>
+[    2.417580] amdgpu 0000:04:00.0: amdgpu: Fetched VBIOS from VFCT
+[    2.417582] amdgpu: ATOM BIOS: 113-LUCIENNE-018
+[    2.419161] [drm] VCN decode is enabled in VM mode
+[    2.419164] [drm] VCN encode is enabled in VM mode
+[    2.419165] [drm] JPEG decode is enabled in VM mode
+[    2.419301] Console: switching to colour dummy device 80x25
+[    2.419335] amdgpu 0000:04:00.0: vgaarb: deactivate vga console
+[    2.419337] amdgpu 0000:04:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled
+[    2.419341] amdgpu 0000:04:00.0: amdgpu: PCIE atomic ops is not supported
+[    2.419348] amdgpu 0000:04:00.0: amdgpu: MODE2 reset
+[    2.419878] [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[    2.419885] amdgpu 0000:04:00.0: amdgpu: VRAM: 2048M 0x000000F400000000 - 0x000000F47FFFFFFF (2048M used)
+[    2.419887] amdgpu 0000:04:00.0: amdgpu: GART: 1024M 0x0000000000000000 - 0x000000003FFFFFFF
+[    2.419888] amdgpu 0000:04:00.0: amdgpu: AGP: 267419648M 0x000000F800000000 - 0x0000FFFFFFFFFFFF
+[    2.419893] [drm] Detected VRAM RAM=2048M, BAR=2048M
+[    2.419894] [drm] RAM width 128bits LPDDR4
+[    2.419977] [drm] amdgpu: 2048M of VRAM memory ready
+[    2.419979] [drm] amdgpu: 6907M of GTT memory ready.
+[    2.419991] [drm] GART: num cpu pages 262144, num gpu pages 262144
+[    2.420121] [drm] PCIE GART of 1024M enabled.
+[    2.420121] [drm] PTB located at 0x000000F47FC00000
+[    2.425765] amdgpu 0000:04:00.0: amdgpu: PSP runtime database doesn't exist
+[    2.425770] amdgpu 0000:04:00.0: amdgpu: PSP runtime database doesn't exist
+[    2.430930] [drm] Loading DMUB firmware via PSP: version=0x01010026
+[    2.455854] [drm] Found VCN firmware Version ENC: 1.19 DEC: 5 VEP: 0 Revision: 0
+[    2.455871] amdgpu 0000:04:00.0: amdgpu: Will use PSP to load VCN firmware
+[    3.154975] [drm] reserve 0x400000 from 0xf47f800000 for PSP TMR
+[    3.235527] amdgpu 0000:04:00.0: amdgpu: RAS: optional ras ta ucode is not available
+[    3.244682] amdgpu 0000:04:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[    3.249364] [drm] psp gfx command LOAD_TA(0x1) failed and response status is (0x7)
+[    3.249583] [drm] psp gfx command INVOKE_CMD(0x3) failed and response status is (0x4)
+[    3.249587] amdgpu 0000:04:00.0: amdgpu: Secure display: Generic Failure.
+[    3.249589] amdgpu 0000:04:00.0: amdgpu: SECUREDISPLAY: query securedisplay TA failed. ret 0x0
+[    3.250466] amdgpu 0000:04:00.0: amdgpu: SMU is initialized successfully!
+[    3.250796] [drm] Display Core initialized with v3.2.207!
+[    3.251361] [drm] DMUB hardware initialized: version=0x01010026
+[    3.433967] [drm] kiq ring mec 2 pipe 1 q 0
+[    3.436943] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[    3.436961] [drm] JPEG decode initialized successfully.
+[    3.438924] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[    3.439010] amdgpu: sdma_bitmap: 3
+[    3.462657] memmap_init_zone_device initialised 524288 pages in 4ms
+[    3.462666] amdgpu: HMM registered 2048MB device memory
+[    3.462703] amdgpu: SRAT table not found
+[    3.462704] amdgpu: Virtual CRAT table created for GPU
+[    3.462810] amdgpu: Topology: Add dGPU node [0x164c:0x1002]
+[    3.462814] kfd kfd: amdgpu: added device 1002:164c
+[    3.462872] amdgpu 0000:04:00.0: amdgpu: SE 1, SH per SE 1, CU per SH 8, active_cu_number 8
+[    3.462949] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[    3.462950] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[    3.462951] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[    3.462952] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[    3.462953] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[    3.462954] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[    3.462955] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[    3.462956] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[    3.462957] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[    3.462958] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[    3.462959] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[    3.462959] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[    3.462960] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[    3.462961] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[    3.462962] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[    3.464423] [drm] Initialized amdgpu 3.49.0 20150101 for 0000:04:00.0 on minor 0
+[    3.469287] fbcon: amdgpudrmfb (fb0) is primary device
+[    3.469446] [drm] DSC precompute is not needed.
+[    3.526831] Console: switching to colour frame buffer device 240x75
+[    3.545920] amdgpu 0000:04:00.0: [drm] fb0: amdgpudrmfb frame buffer device
+[    3.958658] EXT4-fs (nvme0n1p3): mounted filesystem with ordered data mode. Quota mode: none.
+[    4.029093] systemd[1]: systemd 252.5-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[    4.029097] systemd[1]: Detected architecture x86-64.
+[    4.029644] systemd[1]: Hostname set to <Gavins-Laptop>.
+[    4.531200] systemd[1]: bpf-lsm: LSM BPF program attached
+[    4.603287] systemd[1]: Queued start job for default target Graphical Interface.
+[    4.655590] systemd[1]: Created slice Slice /system/getty.
+[    4.655800] systemd[1]: Created slice Slice /system/modprobe.
+[    4.655929] systemd[1]: Created slice User and Session Slice.
+[    4.655976] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    4.656000] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    4.656148] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    4.656178] systemd[1]: Reached target Local Encrypted Volumes.
+[    4.656188] systemd[1]: Reached target Login Prompts.
+[    4.656197] systemd[1]: Reached target Local Integrity Protected Volumes.
+[    4.656214] systemd[1]: Reached target Path Units.
+[    4.656223] systemd[1]: Reached target Remote File Systems.
+[    4.656233] systemd[1]: Reached target Slice Units.
+[    4.656252] systemd[1]: Reached target Local Verity Protected Volumes.
+[    4.656296] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[    4.657159] systemd[1]: Listening on Process Core Dump Socket.
+[    4.657253] systemd[1]: Listening on Journal Audit Socket.
+[    4.657312] systemd[1]: Listening on Journal Socket (/dev/log).
+[    4.657370] systemd[1]: Listening on Journal Socket.
+[    4.657451] systemd[1]: Listening on udev Control Socket.
+[    4.657497] systemd[1]: Listening on udev Kernel Socket.
+[    4.658199] systemd[1]: Mounting Huge Pages File System...
+[    4.658698] systemd[1]: Mounting POSIX Message Queue File System...
+[    4.659152] systemd[1]: Mounting Kernel Debug File System...
+[    4.659623] systemd[1]: Mounting Kernel Trace File System...
+[    4.660238] systemd[1]: Starting Create List of Static Device Nodes...
+[    4.660820] systemd[1]: Starting Load Kernel Module configfs...
+[    4.661415] systemd[1]: Starting Load Kernel Module drm...
+[    4.662069] systemd[1]: Starting Load Kernel Module fuse...
+[    4.662116] systemd[1]: File System Check on Root Device was skipped because of an unmet condition check (ConditionPathIsReadWrite=!/).
+[    4.663140] systemd[1]: Starting Journal Service...
+[    4.663423] systemd[1]: Load Kernel Modules was skipped because no trigger condition checks were met.
+[    4.663961] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    4.663999] systemd[1]: Repartition Root Disk was skipped because no trigger condition checks were met.
+[    4.664499] systemd[1]: Starting Apply Kernel Variables...
+[    4.664998] systemd[1]: Starting Coldplug All udev Devices...
+[    4.666131] systemd[1]: Mounted Huge Pages File System.
+[    4.666180] systemd[1]: Mounted POSIX Message Queue File System.
+[    4.666218] systemd[1]: Mounted Kernel Debug File System.
+[    4.666253] systemd[1]: Mounted Kernel Trace File System.
+[    4.669223] EXT4-fs (nvme0n1p3): re-mounted. Quota mode: none.
+[    4.670436] fuse: init (API version 7.37)
+[    4.708333] systemd[1]: Finished Create List of Static Device Nodes.
+[    4.708457] audit: type=1130 audit(1676327529.703:2): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=kmod-static-nodes comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.709055] systemd[1]: Started Journal Service.
+[    4.709126] audit: type=1130 audit(1676327529.703:3): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.758548] audit: type=1130 audit(1676327529.753:4): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=modprobe@configfs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.758563] audit: type=1131 audit(1676327529.753:5): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=modprobe@configfs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.798528] audit: type=1130 audit(1676327529.793:6): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=modprobe@drm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.798543] audit: type=1131 audit(1676327529.793:7): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=modprobe@drm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.828382] audit: type=1130 audit(1676327529.823:8): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=modprobe@fuse comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.828395] audit: type=1131 audit(1676327529.823:9): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=modprobe@fuse comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.858482] audit: type=1130 audit(1676327529.853:10): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-remount-fs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    4.961356] systemd-journald[395]: Received client request to flush runtime journal.
+[    4.962283] systemd-journald[395]: File /var/log/journal/77066bf4efe046f288135c00c1eae0af/system.journal corrupted or uncleanly shut down, renaming and replacing.
+[    5.144013] acpi_cpufreq: overriding BIOS provided _PSD data
+[    5.148313] Adding 2097148k swap on /dev/nvme0n1p2.  Priority:-2 extents:1 across:2097148k SSFS
+[    5.171648] ccp 0000:04:00.2: enabling device (0000 -> 0002)
+[    5.171849] ccp 0000:04:00.2: ccp: unable to access the device: you might be running a broken BIOS.
+[    5.181997] ccp 0000:04:00.2: tee enabled
+[    5.182003] ccp 0000:04:00.2: psp enabled
+[    5.182925] mc: Linux media interface: v0.10
+[    5.185561] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xb00, revision 0
+[    5.185567] piix4_smbus 0000:00:14.0: Using register 0x02 for SMBus port selection
+[    5.185650] piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xb20
+[    5.191506] input: PC Speaker as /devices/platform/pcspkr/input/input4
+[    5.191515] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+[    5.191519] RAPL PMU: hw unit of domain package 2^-16 Joules
+[    5.278286] kauditd_printk_skb: 8 callbacks suppressed
+[    5.278292] audit: type=1130 audit(1676327530.273:19): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-backlight@backlight:amdgpu_bl0 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.282642] cryptd: max_cpu_qlen set to 1000
+[    5.302033] input: MSFT0004:00 06CB:CE44 Mouse as /devices/platform/AMDI0010:00/i2c-0/i2c-MSFT0004:00/0018:06CB:CE44.0001/input/input5
+[    5.302107] input: MSFT0004:00 06CB:CE44 Touchpad as /devices/platform/AMDI0010:00/i2c-0/i2c-MSFT0004:00/0018:06CB:CE44.0001/input/input6
+[    5.302159] hid-generic 0018:06CB:CE44.0001: input,hidraw0: I2C HID v1.00 Mouse [MSFT0004:00 06CB:CE44] on i2c-MSFT0004:00
+[    5.310104] input: WACF2200:00 056A:52FC Touchscreen as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52FC.0002/input/input8
+[    5.310139] input: WACF2200:00 056A:52FC as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52FC.0002/input/input9
+[    5.310189] input: WACF2200:00 056A:52FC Stylus as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52FC.0002/input/input10
+[    5.310235] input: WACF2200:00 056A:52FC as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52FC.0002/input/input11
+[    5.310280] input: WACF2200:00 056A:52FC Mouse as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52FC.0002/input/input12
+[    5.310331] hid-generic 0018:056A:52FC.0002: input,hidraw1: I2C HID v1.00 Mouse [WACF2200:00 056A:52FC] on i2c-WACF2200:00
+[    5.317668] hid-generic 0018:6243:0001.0003: hidraw2: I2C HID v1.00 Device [ENES6243:00 6243:0001] on i2c-ENES6243:00
+[    5.325736] videodev: Linux video capture interface: v2.00
+[    5.327194] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    5.327462] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    5.327741] usbcore: registered new interface driver usbhid
+[    5.327744] usbhid: USB HID core driver
+[    5.328674] Bluetooth: Core ver 2.22
+[    5.328818] NET: Registered PF_BLUETOOTH protocol family
+[    5.328820] Bluetooth: HCI device and connection manager initialized
+[    5.328831] Bluetooth: HCI socket layer initialized
+[    5.328833] Bluetooth: L2CAP socket layer initialized
+[    5.328847] Bluetooth: SCO socket layer initialized
+[    5.328859] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[    5.328868] cfg80211: failed to load regulatory.db
+[    5.329174] FAT-fs (nvme0n1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[    5.334908] sp5100_tco: SP5100/SB800 TCO WatchDog Timer Driver
+[    5.340315] AVX2 version of gcm_enc/dec engaged.
+[    5.340354] AES CTR mode by8 optimization enabled
+[    5.356987] sp5100-tco sp5100-tco: Using 0xfeb00000 for watchdog MMIO address
+[    5.361323] sp5100-tco sp5100-tco: initialized. heartbeat=60 sec (nowayout=0)
+[    5.371129] snd_rn_pci_acp3x 0000:04:00.5: enabling device (0000 -> 0002)
+[    5.387834] input: Ideapad extra buttons as /devices/pci0000:00/0000:00:14.3/PNP0C09:00/VPC2004:00/input/input13
+[    5.422883] usbcore: registered new interface driver btusb
+[    5.428740] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[    5.429113] usb 1-3: Found UVC 1.10 device Integrated Camera (04f2:b758)
+[    5.430750] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[    5.430757] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[    5.436157] rtw89core: loading out-of-tree module taints kernel.
+[    5.436219] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[    5.436543] rtw89core: module verification failed: signature and/or required key missing - tainting kernel
+[    5.438821] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[    5.452851] audit: type=1130 audit(1676327530.446:20): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.467471] audit: type=1127 audit(1676327530.460:21): pid=523 uid=0 auid=4294967295 ses=4294967295 msg=' comm="systemd-update-utmp" exe="/usr/lib/systemd/systemd-update-utmp" hostname=? addr=? terminal=? res=success'
+[    5.468897] input: Integrated Camera: Integrated C as /devices/pci0000:00/0000:00:08.1/0000:04:00.3/usb1/1-3/1-3:1.0/input/input14
+[    5.468978] audit: type=1130 audit(1676327530.463:22): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.475899] snd_hda_intel 0000:04:00.1: enabling device (0000 -> 0002)
+[    5.476041] snd_hda_intel 0000:04:00.1: Handle vga_switcheroo audio client
+[    5.476193] snd_hda_intel 0000:04:00.6: enabling device (0000 -> 0002)
+[    5.497725] ideapad_acpi VPC2004:00: Keyboard backlight control not available
+[    5.504566] snd_hda_intel 0000:04:00.1: bound 0000:04:00.0 (ops amdgpu_dm_audio_component_bind_ops [amdgpu])
+[    5.506334] input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:04:00.1/sound/card0/input15
+[    5.517614] SVM: TSC scaling supported
+[    5.517619] kvm: Nested Virtualization enabled
+[    5.517621] SVM: kvm: Nested Paging enabled
+[    5.517630] SVM: Virtual VMLOAD VMSAVE supported
+[    5.517631] SVM: Virtual GIF supported
+[    5.517631] SVM: LBR virtualization supported
+[    5.522153] snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC257: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+[    5.522159] snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    5.522161] snd_hda_codec_realtek hdaudioC1D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[    5.522163] snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+[    5.522164] snd_hda_codec_realtek hdaudioC1D0:    inputs:
+[    5.522165] snd_hda_codec_realtek hdaudioC1D0:      Mic=0x19
+[    5.522166] snd_hda_codec_realtek hdaudioC1D0:      Internal Mic=0x12
+[    5.528060] audit: type=1130 audit(1676327530.523:23): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-update-utmp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.529341] MCE: In-kernel MCE decoding enabled.
+[    5.542685] rtw89_8852be 0000:03:00.0: enabling device (0000 -> 0003)
+[    5.544445] rtw89_8852be 0000:03:00.0: Firmware version 0.27.32.1, cmd version 0, type 1
+[    5.544451] rtw89_8852be 0000:03:00.0: Firmware version 0.27.32.1, cmd version 0, type 3
+[    5.545612] usb 1-3: Found UVC 1.50 device Integrated Camera (04f2:b758)
+[    5.547465] input: Integrated Camera: Integrated I as /devices/pci0000:00/0000:00:08.1/0000:04:00.3/usb1/1-3/1-3:1.2/input/input17
+[    5.549098] intel_rapl_common: Found RAPL domain package
+[    5.549102] intel_rapl_common: Found RAPL domain core
+[    5.552290] input: MSFT0004:00 06CB:CE44 Mouse as /devices/platform/AMDI0010:00/i2c-0/i2c-MSFT0004:00/0018:06CB:CE44.0001/input/input18
+[    5.568786] audit: type=1334 audit(1676327530.563:24): prog-id=29 op=LOAD
+[    5.568849] audit: type=1334 audit(1676327530.563:25): prog-id=30 op=LOAD
+[    5.568855] audit: type=1334 audit(1676327530.563:26): prog-id=31 op=LOAD
+[    5.570619] audit: type=1334 audit(1676327530.563:27): prog-id=32 op=LOAD
+[    5.570659] audit: type=1334 audit(1676327530.563:28): prog-id=33 op=LOAD
+[    5.584479] input: HD-Audio Generic HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:08.1/0000:04:00.1/sound/card0/input16
+[    5.584590] usbcore: registered new interface driver uvcvideo
+[    5.584663] input: MSFT0004:00 06CB:CE44 Touchpad as /devices/platform/AMDI0010:00/i2c-0/i2c-MSFT0004:00/0018:06CB:CE44.0001/input/input19
+[    5.602067] input: HD-Audio Generic Mic as /devices/pci0000:00/0000:00:08.1/0000:04:00.6/sound/card1/input21
+[    5.631147] hid-multitouch 0018:06CB:CE44.0001: input,hidraw0: I2C HID v1.00 Mouse [MSFT0004:00 06CB:CE44] on i2c-MSFT0004:00
+[    5.631186] input: HD-Audio Generic Headphone as /devices/pci0000:00/0000:00:08.1/0000:04:00.6/sound/card1/input22
+[    5.671634] mousedev: PS/2 mouse device common for all mice
+[    5.672760] input: Wacom HID 52FC Pen as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52FC.0002/input/input23
+[    5.672857] input: Wacom HID 52FC Finger as /devices/platform/AMDI0010:01/i2c-1/i2c-WACF2200:00/0018:056A:52FC.0002/input/input24
+[    5.672933] wacom 0018:056A:52FC.0002: hidraw1: I2C HID v1.00 Mouse [WACF2200:00 056A:52FC] on i2c-WACF2200:00
+[    5.840774] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[    5.852419] rtw89_8852be 0000:03:00.0: chip rfe_type is 1
+[    5.884098] rtw89_8852be 0000:03:00.0 wlo1: renamed from wlan0
+[    5.975811] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[    5.990777] Bluetooth: hci0: AOSP extensions version v0.96
+[    5.990781] Bluetooth: hci0: AOSP quality report is not supported
+[   10.720520] wlo1: authenticate with 7c:57:3c:b0:b7:f1
+[   10.896085] wlo1: send auth to 7c:57:3c:b0:b7:f1 (try 1/3)
+[   10.899414] wlo1: authenticated
+[   10.900955] wlo1: associate with 7c:57:3c:b0:b7:f1 (try 1/3)
+[   10.904022] wlo1: RX AssocResp from 7c:57:3c:b0:b7:f1 (capab=0x1 status=0 aid=14)
+[   10.911605] kauditd_printk_skb: 26 callbacks suppressed
+[   10.911609] audit: type=1131 audit(1676327535.906:53): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   11.011245] wlo1: associated
+[   11.011309] wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 7c:57:3c:b0:b7:f1
+[   11.011827] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[   15.805147] audit: type=1131 audit(1676327540.800:54): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   16.158018] audit: type=1100 audit(1676327541.153:55): pid=645 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_shells,pam_faillock,pam_permit,pam_faillock acct="gavin" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   16.158107] audit: type=1101 audit(1676327541.153:56): pid=645 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   16.178852] audit: type=1106 audit(1676327541.173:57): pid=609 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:session_close grantors=pam_unix,pam_systemd acct="lightdm" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   16.178918] audit: type=1104 audit(1676327541.173:58): pid=609 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_env,pam_permit acct="lightdm" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   16.233013] audit: type=1103 audit(1676327541.226:59): pid=645 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_shells,pam_faillock,pam_permit,pam_faillock acct="gavin" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   16.233138] audit: type=1006 audit(1676327541.226:60): pid=645 uid=0 old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=2 res=1
+[   16.233147] audit: type=1300 audit(1676327541.226:60): arch=c000003e syscall=1 success=yes exit=4 a0=b a1=7ffc250f7f50 a2=4 a3=0 items=0 ppid=551 pid=645 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=2 comm="lightdm" exe="/usr/bin/lightdm" key=(null)
+[   16.233152] audit: type=1327 audit(1676327541.226:60): proctitle=6C69676874646D002D2D73657373696F6E2D6368696C64003135003232
+[   16.334878] audit: type=1130 audit(1676327541.330:61): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user-runtime-dir@1000 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   16.340430] audit: type=1101 audit(1676327541.333:62): pid=666 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_access,pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   16.397784] systemd-journald[395]: File /var/log/journal/77066bf4efe046f288135c00c1eae0af/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[   26.381869] kauditd_printk_skb: 10 callbacks suppressed
+[   26.381874] audit: type=1131 audit(1676327551.376:71): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user@973 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   26.452144] audit: type=1131 audit(1676327551.446:72): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user-runtime-dir@973 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   35.724816] audit: type=1131 audit(1676327560.720:73): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   35.804683] audit: type=1334 audit(1676327560.800:74): prog-id=37 op=UNLOAD
+[   35.804693] audit: type=1334 audit(1676327560.800:75): prog-id=36 op=UNLOAD
+[   35.804698] audit: type=1334 audit(1676327560.800:76): prog-id=35 op=UNLOAD
+[  916.134744] audit: type=1130 audit(1676328441.130:77): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-clean comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  916.134752] audit: type=1131 audit(1676328441.130:78): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-clean comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 2437.473419] rtw89_8852be 0000:03:00.0: FW status = 0xb7001100
+[ 2437.473427] rtw89_8852be 0000:03:00.0: FW BADADDR = 0x11
+[ 2437.473430] rtw89_8852be 0000:03:00.0: FW EPC/RA = 0x0
+[ 2437.473433] rtw89_8852be 0000:03:00.0: FW MISC = 0xb8900635
+[ 2437.473436] rtw89_8852be 0000:03:00.0: R_AX_HALT_C2H = 0x1000
+[ 2437.473438] rtw89_8852be 0000:03:00.0: R_AX_SER_DBG_INFO = 0x1000000
+[ 2437.473445] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0e7
+[ 2437.473459] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0eb
+[ 2437.473472] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a007
+[ 2437.473485] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a02f
+[ 2437.473498] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0eb
+[ 2437.473511] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a01b
+[ 2437.473525] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a037
+[ 2437.473538] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0ed
+[ 2437.473551] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a01f
+[ 2437.473564] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0d5
+[ 2437.473577] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0f9
+[ 2437.473590] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a011
+[ 2437.473603] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a037
+[ 2437.473616] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a103
+[ 2437.473629] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a033
+[ 2437.473641] rtw89_8852be 0000:03:00.0: --->
+               err=0x1000
+[ 2437.473643] rtw89_8852be 0000:03:00.0: R_AX_SER_DBG_INFO =0x01000000
+[ 2437.473648] rtw89_8852be 0000:03:00.0: R_AX_DMAC_ERR_ISR=0x00000040
+[ 2437.473651] rtw89_8852be 0000:03:00.0: R_AX_DMAC_ERR_IMR=0x00000000
+[ 2437.473653] rtw89_8852be 0000:03:00.0: R_AX_WDE_ERR_FLAG_CFG=0x00000000
+[ 2437.473656] rtw89_8852be 0000:03:00.0: R_AX_PLE_ERR_FLAG_CFG=0x83190000
+[ 2437.473658] rtw89_8852be 0000:03:00.0: R_AX_WDE_ERR_IMR=0xffffffff
+[ 2437.473661] rtw89_8852be 0000:03:00.0: R_AX_WDE_ERR_ISR=0x00000000
+[ 2437.473664] rtw89_8852be 0000:03:00.0: R_AX_PLE_ERR_IMR=0xffffffdf
+[ 2437.473666] rtw89_8852be 0000:03:00.0: R_AX_PLE_ERR_FLAG_ISR=0x02000000
+[ 2437.473668] rtw89_8852be 0000:03:00.0: R_AX_WD_CPUQ_OP_0=0x00000000
+[ 2437.473671] rtw89_8852be 0000:03:00.0: R_AX_WD_CPUQ_OP_1=0x00000000
+[ 2437.473673] rtw89_8852be 0000:03:00.0: R_AX_WD_CPUQ_OP_2=0x00000000
+[ 2437.473676] rtw89_8852be 0000:03:00.0: R_AX_WD_CPUQ_OP_STATUS=0x00000000
+[ 2437.473678] rtw89_8852be 0000:03:00.0: R_AX_PL_CPUQ_OP_0=0x00000000
+[ 2437.473681] rtw89_8852be 0000:03:00.0: R_AX_PL_CPUQ_OP_1=0x00000000
+[ 2437.473683] rtw89_8852be 0000:03:00.0: R_AX_PL_CPUQ_OP_2=0x00000000
+[ 2437.473686] rtw89_8852be 0000:03:00.0: R_AX_PL_CPUQ_OP_STATUS=0x00000000
+[ 2437.473688] rtw89_8852be 0000:03:00.0: R_AX_RXDMA_PKT_INFO_0=0x800080a7
+[ 2437.473691] rtw89_8852be 0000:03:00.0: R_AX_RXDMA_PKT_INFO_1=0x80008000
+[ 2437.473693] rtw89_8852be 0000:03:00.0: R_AX_RXDMA_PKT_INFO_2=0x810d80c2
+[ 2437.473700] rtw89_8852be 0000:03:00.0: R_AX_CMAC_ERR_ISR [0]=0x00000000
+[ 2437.473704] rtw89_8852be 0000:03:00.0: R_AX_CMAC_FUNC_EN [0]=0xf000803f
+[ 2437.473706] rtw89_8852be 0000:03:00.0: R_AX_CK_EN [0]=0xffffffff
+[ 2437.473709] rtw89_8852be 0000:03:00.0: R_AX_CMAC_ERR_IMR [0]=0x00000000
+[ 2437.473712] rtw89_8852be 0000:03:00.0: R_AX_RPQ_RXBD_IDX =0x003f003f
+[ 2437.473714] rtw89_8852be 0000:03:00.0: R_AX_DBG_ERR_FLAG=0x00000000
+[ 2437.473716] rtw89_8852be 0000:03:00.0: R_AX_LBC_WATCHDOG=0x00000081
+[ 2437.473717] rtw89_8852be 0000:03:00.0: <---
+[ 2437.473718] rtw89_8852be 0000:03:00.0: SER catches error: 0x1000
+[ 2437.474126] rtw89_8852be 0000:03:00.0: FW status = 0xb7001100
+[ 2437.474134] rtw89_8852be 0000:03:00.0: FW BADADDR = 0x11
+[ 2437.474139] rtw89_8852be 0000:03:00.0: FW EPC/RA = 0x0
+[ 2437.474143] rtw89_8852be 0000:03:00.0: FW MISC = 0xb8900635
+[ 2437.474147] rtw89_8852be 0000:03:00.0: R_AX_HALT_C2H = 0x1001
+[ 2437.474151] rtw89_8852be 0000:03:00.0: R_AX_SER_DBG_INFO = 0x1000000
+[ 2437.474159] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a039
+[ 2437.474174] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a011
+[ 2437.474189] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a00d
+[ 2437.474204] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0ed
+[ 2437.474219] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a029
+[ 2437.474234] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a013
+[ 2437.474249] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0ef
+[ 2437.474264] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a033
+[ 2437.474278] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a007
+[ 2437.474293] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0e5
+[ 2437.474308] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a01f
+[ 2437.474323] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0ff
+[ 2437.474338] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0d3
+[ 2437.474353] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a023
+[ 2437.474368] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a105
+[ 2437.474381] rtw89_8852be 0000:03:00.0: SER catches error: 0x1001
+[ 2437.474602] rtw89_8852be 0000:03:00.0: FW status = 0xb7008100
+[ 2437.474610] rtw89_8852be 0000:03:00.0: FW BADADDR = 0x11
+[ 2437.474615] rtw89_8852be 0000:03:00.0: FW EPC/RA = 0x0
+[ 2437.474619] rtw89_8852be 0000:03:00.0: FW MISC = 0xb898828b
+[ 2437.474623] rtw89_8852be 0000:03:00.0: R_AX_HALT_C2H = 0x1002
+[ 2437.474627] rtw89_8852be 0000:03:00.0: R_AX_SER_DBG_INFO = 0xf1000000
+[ 2437.474635] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb897d145
+[ 2437.474650] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a8d85
+[ 2437.474665] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a97ff
+[ 2437.474680] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb8935e5d
+[ 2437.474695] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb8935e5b
+[ 2437.474710] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a8db9
+[ 2437.474724] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb8930378
+[ 2437.474739] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb890cd13
+[ 2437.474754] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb897d1db
+[ 2437.474769] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a79c9
+[ 2437.474784] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a9849
+[ 2437.474799] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a37cf
+[ 2437.474814] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a970f
+[ 2437.474829] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a8fff
+[ 2437.474844] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb893435f
+[ 2437.474857] rtw89_8852be 0000:03:00.0: SER catches error: 0x1002
+[ 2437.515961] rtw89_8852be 0000:03:00.0: c2h class 1 func 3 not support
+[13263.867684] audit: type=1130 audit(1676340788.864:79): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13263.868788] wlo1: deauthenticating from 7c:57:3c:b0:b7:f1 by local choice (Reason: 3=DEAUTH_LEAVING)
+[13264.498454] PM: suspend entry (s2idle)
+[13264.499936] Filesystems sync: 0.001 seconds
+[13264.504443] Freezing user space processes ... (elapsed 0.054 seconds) done.
+[13264.559331] OOM killer disabled.
+[13264.559333] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[13264.560582] printk: Suspending console(s) (use no_console_suspend to debug)
+[13264.830714] ACPI: EC: interrupt blocked
+[13269.615333] ACPI: EC: interrupt unblocked
+[13280.645039] ucsi_acpi USBC000:00: ucsi_handle_connector_change: ACK failed (-110)
+[13280.683682] pci 0000:00:00.2: can't derive routing for PCI INT A
+[13280.683688] pci 0000:00:00.2: PCI INT A: no GSI
+[13280.684762] [drm] PCIE GART of 1024M enabled.
+[13280.684768] [drm] PTB located at 0x000000F47FC00000
+[13280.684790] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[13280.685096] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[13280.685512] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[13280.756116] nvme nvme0: 16/0/0 default/read/poll queues
+[13280.760336] nvme nvme0: Ignoring bogus Namespace Identifiers
+[13280.775803] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[13280.776447] [drm] JPEG decode initialized successfully.
+[13280.776666] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[13280.776668] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[13280.776669] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[13280.776670] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[13280.776671] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[13280.776672] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[13280.776672] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[13280.776673] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[13280.776674] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[13280.776675] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[13280.776676] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[13280.776677] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[13280.776678] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[13280.776678] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[13280.776679] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[13280.993913] ata2: SATA link down (SStatus 0 SControl 300)
+[13280.993913] ata1: SATA link down (SStatus 0 SControl 300)
+[13281.007932] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[13281.164161] OOM killer enabled.
+[13281.164165] Restarting tasks ... 
+[13281.165816] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[13281.165965] done.
+[13281.165990] random: crng reseeded on system resumption
+[13281.167780] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[13281.167791] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[13281.167823] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[13281.167850] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[13281.213029] audit: type=1131 audit(1676340805.630:80): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13281.224501] PM: suspend exit
+[13281.310139] audit: type=1130 audit(1676340805.726:81): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13281.310154] audit: type=1131 audit(1676340805.726:82): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13281.310686] audit: type=1130 audit(1676340805.726:83): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13281.541106] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[13281.676212] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[13281.691237] Bluetooth: hci0: AOSP extensions version v0.96
+[13281.691250] Bluetooth: hci0: AOSP quality report is not supported
+[13285.650092] wlo1: authenticate with 7c:57:3c:b0:b7:f1
+[13285.820942] wlo1: send auth to 7c:57:3c:b0:b7:f1 (try 1/3)
+[13285.821544] wlo1: authenticated
+[13285.822386] wlo1: associate with 7c:57:3c:b0:b7:f1 (try 1/3)
+[13285.838951] wlo1: RX AssocResp from 7c:57:3c:b0:b7:f1 (capab=0x1 status=0 aid=8)
+[13285.949634] wlo1: associated
+[13285.949710] wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 7c:57:3c:b0:b7:f1
+[13285.950192] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[13286.024739] audit: type=1130 audit(1676340810.440:84): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13286.332874] audit: type=1131 audit(1676340810.750:85): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13296.076400] audit: type=1131 audit(1676340820.493:86): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13298.203842] audit: type=1130 audit(1676340822.620:87): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[13298.204420] wlo1: deauthenticating from 7c:57:3c:b0:b7:f1 by local choice (Reason: 3=DEAUTH_LEAVING)
+[13298.892783] PM: suspend entry (s2idle)
+[13298.900645] Filesystems sync: 0.007 seconds
+[13298.901186] Freezing user space processes ... (elapsed 0.041 seconds) done.
+[13298.942753] OOM killer disabled.
+[13298.942755] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[13298.944057] printk: Suspending console(s) (use no_console_suspend to debug)
+[13299.201381] ACPI: EC: interrupt blocked
+[26283.059950] ACPI: EC: interrupt unblocked
+[26294.165179] pci 0000:00:00.2: can't derive routing for PCI INT A
+[26294.165186] pci 0000:00:00.2: PCI INT A: no GSI
+[26294.166780] [drm] PCIE GART of 1024M enabled.
+[26294.166786] [drm] PTB located at 0x000000F47FC00000
+[26294.166806] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[26294.166851] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[26294.167684] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[26294.235533] nvme nvme0: 16/0/0 default/read/poll queues
+[26294.240271] nvme nvme0: Ignoring bogus Namespace Identifiers
+[26294.260417] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[26294.260779] [drm] JPEG decode initialized successfully.
+[26294.261014] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[26294.261018] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[26294.261021] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[26294.261023] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[26294.261026] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[26294.261028] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[26294.261030] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[26294.261032] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[26294.261034] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[26294.261037] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[26294.261039] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[26294.261042] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[26294.261044] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[26294.261046] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[26294.261048] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[26294.478135] ata2: SATA link down (SStatus 0 SControl 300)
+[26294.478136] ata1: SATA link down (SStatus 0 SControl 300)
+[26294.489949] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[26294.645765] OOM killer enabled.
+[26294.645768] Restarting tasks ... 
+[26294.646669] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[26294.647073] done.
+[26294.647091] random: crng reseeded on system resumption
+[26294.648624] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[26294.648635] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[26294.652233] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[26294.653867] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[26294.702845] PM: suspend exit
+[26294.734665] audit: type=1131 audit(1676353819.700:88): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[26294.735083] audit: type=1130 audit(1676353819.700:89): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[26294.784786] audit: type=1130 audit(1676353819.750:90): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[26294.784796] audit: type=1131 audit(1676353819.750:91): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[26295.025643] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[26295.160740] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[26295.175914] Bluetooth: hci0: AOSP extensions version v0.96
+[26295.175924] Bluetooth: hci0: AOSP quality report is not supported
+[26299.721576] audit: type=1131 audit(1676353824.686:92): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[26299.778577] wlo1: authenticate with 44:48:c1:46:bb:81
+[26299.960648] wlo1: send auth to 44:48:c1:46:bb:81 (try 1/3)
+[26299.963686] wlo1: authenticated
+[26299.964308] wlo1: associate with 44:48:c1:46:bb:81 (try 1/3)
+[26299.969426] wlo1: RX AssocResp from 44:48:c1:46:bb:81 (capab=0x1 status=0 aid=2)
+[26300.078284] wlo1: associated
+[26300.078423] wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 44:48:c1:46:bb:81
+[26300.078997] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[26300.222450] audit: type=1130 audit(1676353825.186:93): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[26310.261421] audit: type=1131 audit(1676353835.226:94): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[26311.738565] audit: type=1130 audit(1676353836.703:95): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[26311.739207] wlo1: deauthenticating from 44:48:c1:46:bb:81 by local choice (Reason: 3=DEAUTH_LEAVING)
+[26312.441854] PM: suspend entry (s2idle)
+[26312.449601] Filesystems sync: 0.007 seconds
+[26312.455193] Freezing user space processes ... (elapsed 0.019 seconds) done.
+[26312.474642] OOM killer disabled.
+[26312.474644] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[26312.476032] printk: Suspending console(s) (use no_console_suspend to debug)
+[26312.626256] ACPI: EC: interrupt blocked
+[31687.191804] ACPI: EC: interrupt unblocked
+[31698.221734] pci 0000:00:00.2: can't derive routing for PCI INT A
+[31698.221737] pci 0000:00:00.2: PCI INT A: no GSI
+[31698.223014] [drm] PCIE GART of 1024M enabled.
+[31698.223016] [drm] PTB located at 0x000000F47FC00000
+[31698.223029] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[31698.223252] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[31698.224369] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[31698.293708] nvme nvme0: 16/0/0 default/read/poll queues
+[31698.297930] nvme nvme0: Ignoring bogus Namespace Identifiers
+[31698.315941] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[31698.316723] [drm] JPEG decode initialized successfully.
+[31698.316947] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[31698.316952] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[31698.316955] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[31698.316957] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[31698.316959] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[31698.316962] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[31698.316964] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[31698.316966] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[31698.316968] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[31698.316971] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[31698.316973] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[31698.316976] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[31698.316978] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[31698.316980] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[31698.316982] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[31698.532826] ata1: SATA link down (SStatus 0 SControl 300)
+[31698.532827] ata2: SATA link down (SStatus 0 SControl 300)
+[31698.545348] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[31698.701188] OOM killer enabled.
+[31698.701192] Restarting tasks ... 
+[31698.702026] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[31698.702526] done.
+[31698.702545] random: crng reseeded on system resumption
+[31698.704025] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[31698.704037] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[31698.704067] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[31698.704095] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[31698.740974] audit: type=1334 audit(1676359223.576:96): prog-id=38 op=LOAD
+[31698.741023] audit: type=1334 audit(1676359223.576:97): prog-id=39 op=LOAD
+[31698.741040] audit: type=1334 audit(1676359223.576:98): prog-id=40 op=LOAD
+[31698.741050] audit: type=1334 audit(1676359223.576:99): prog-id=33 op=UNLOAD
+[31698.741059] audit: type=1334 audit(1676359223.576:100): prog-id=34 op=UNLOAD
+[31698.741950] audit: type=1130 audit(1676359223.576:101): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=shadow comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31698.757300] PM: suspend exit
+[31698.763315] audit: type=1131 audit(1676359223.600:102): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31698.764070] audit: type=1130 audit(1676359223.600:103): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31698.807048] audit: type=1130 audit(1676359223.643:104): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31698.807062] audit: type=1131 audit(1676359223.643:105): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31699.077014] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[31699.212291] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[31699.227268] Bluetooth: hci0: AOSP extensions version v0.96
+[31699.227279] Bluetooth: hci0: AOSP quality report is not supported
+[31703.773131] wlo1: authenticate with 44:48:c1:46:bb:81
+[31703.780696] kauditd_printk_skb: 2 callbacks suppressed
+[31703.780701] audit: type=1131 audit(1676359228.616:108): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31703.941741] wlo1: send auth to 44:48:c1:46:bb:81 (try 1/3)
+[31703.942622] wlo1: authenticated
+[31703.946618] wlo1: associate with 44:48:c1:46:bb:81 (try 1/3)
+[31703.948078] wlo1: RX AssocResp from 44:48:c1:46:bb:81 (capab=0x1 status=0 aid=2)
+[31704.057030] wlo1: associated
+[31704.057116] wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 44:48:c1:46:bb:81
+[31704.057754] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[31704.227731] audit: type=1130 audit(1676359229.063:109): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31714.253902] audit: type=1131 audit(1676359239.090:110): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31715.974828] audit: type=1130 audit(1676359240.810:111): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[31715.975481] wlo1: deauthenticating from 44:48:c1:46:bb:81 by local choice (Reason: 3=DEAUTH_LEAVING)
+[31716.667071] PM: suspend entry (s2idle)
+[31716.675603] Filesystems sync: 0.008 seconds
+[31716.676112] Freezing user space processes ... (elapsed 0.007 seconds) done.
+[31716.683155] OOM killer disabled.
+[31716.683157] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[31716.684425] printk: Suspending console(s) (use no_console_suspend to debug)
+[31716.823055] ACPI: EC: interrupt blocked
+[86135.589751] ACPI: EC: interrupt unblocked
+[86146.667195] pci 0000:00:00.2: can't derive routing for PCI INT A
+[86146.667198] pci 0000:00:00.2: PCI INT A: no GSI
+[86146.668490] [drm] PCIE GART of 1024M enabled.
+[86146.668494] [drm] PTB located at 0x000000F47FC00000
+[86146.668510] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[86146.668906] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[86146.669355] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[86146.739447] nvme nvme0: 16/0/0 default/read/poll queues
+[86146.743656] nvme nvme0: Ignoring bogus Namespace Identifiers
+[86146.762652] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[86146.762699] [drm] JPEG decode initialized successfully.
+[86146.762902] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[86146.762906] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[86146.762908] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[86146.762910] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[86146.762911] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[86146.762913] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[86146.762915] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[86146.762916] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[86146.762918] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[86146.762920] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[86146.762922] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[86146.762924] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[86146.762925] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[86146.762927] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[86146.762929] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[86146.977483] ata1: SATA link down (SStatus 0 SControl 300)
+[86146.977495] ata2: SATA link down (SStatus 0 SControl 300)
+[86146.991626] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[86147.195434] OOM killer enabled.
+[86147.195436] Restarting tasks ... 
+[86147.196491] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[86147.197152] done.
+[86147.197177] random: crng reseeded on system resumption
+[86147.198486] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[86147.198497] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[86147.204351] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[86147.206914] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[86147.268950] PM: suspend exit
+[86147.271869] audit: type=1130 audit(1676413672.690:112): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[86147.307334] audit: type=1131 audit(1676413672.726:113): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[86147.340873] audit: type=1130 audit(1676413672.760:114): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[86147.340887] audit: type=1131 audit(1676413672.760:115): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[86147.410276] ideapad_acpi VPC2004:00: Unknown event: 12
+[86147.578518] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[86147.713496] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[86147.728492] Bluetooth: hci0: AOSP extensions version v0.96
+[86147.728500] Bluetooth: hci0: AOSP quality report is not supported
+[86152.090771] wlo1: authenticate with 7c:57:3c:b0:b7:e1
+[86152.259452] wlo1: send auth to 7c:57:3c:b0:b7:e1 (try 1/3)
+[86152.259994] wlo1: authenticated
+[86152.263559] wlo1: associate with 7c:57:3c:b0:b7:e1 (try 1/3)
+[86152.277361] audit: type=1131 audit(1676413677.696:116): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[86152.277645] wlo1: RX AssocResp from 7c:57:3c:b0:b7:e1 (capab=0x1 status=0 aid=4)
+[86152.386976] wlo1: associated
+[86152.387050] wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 7c:57:3c:b0:b7:e1
+[86152.387556] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[86152.498150] audit: type=1130 audit(1676413677.916:117): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[86162.543682] audit: type=1131 audit(1676413687.963:118): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[97219.709391] audit: type=1130 audit(1676424745.127:119): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[97219.710153] wlo1: deauthenticating from 7c:57:3c:b0:b7:e1 by local choice (Reason: 3=DEAUTH_LEAVING)
+[97220.359458] PM: suspend entry (s2idle)
+[97220.366927] Filesystems sync: 0.007 seconds
+[97220.372272] Freezing user space processes ... (elapsed 0.014 seconds) done.
+[97220.386716] OOM killer disabled.
+[97220.386717] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[97220.388136] printk: Suspending console(s) (use no_console_suspend to debug)
+[97220.650390] ACPI: EC: interrupt blocked
+[172413.566523] ACPI: EC: interrupt unblocked
+[172426.686123] pci 0000:00:00.2: can't derive routing for PCI INT A
+[172426.686131] pci 0000:00:00.2: PCI INT A: no GSI
+[172426.687526] [drm] PCIE GART of 1024M enabled.
+[172426.687534] [drm] PTB located at 0x000000F47FC00000
+[172426.687558] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[172426.687606] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[172426.688625] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[172426.758695] nvme nvme0: 16/0/0 default/read/poll queues
+[172426.763130] nvme nvme0: Ignoring bogus Namespace Identifiers
+[172426.779305] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[172426.779358] [drm] JPEG decode initialized successfully.
+[172426.779602] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[172426.779607] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[172426.779610] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[172426.779612] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[172426.779615] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[172426.779617] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[172426.779619] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[172426.779622] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[172426.779624] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[172426.779627] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[172426.779629] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[172426.779632] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[172426.779634] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[172426.779637] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[172426.779639] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[172426.998576] ata1: SATA link down (SStatus 0 SControl 300)
+[172426.998648] ata2: SATA link down (SStatus 0 SControl 300)
+[172427.010782] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[172427.051746] ideapad_acpi VPC2004:00: Unknown event: 12
+[172427.166870] OOM killer enabled.
+[172427.166873] Restarting tasks ... 
+[172427.167677] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[172427.169678] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[172427.169686] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[172427.169741] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[172427.169782] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[172427.170041] done.
+[172427.170057] random: crng reseeded on system resumption
+[172427.225930] PM: suspend exit
+[172427.228263] audit: type=1334 audit(1676499953.670:120): prog-id=41 op=LOAD
+[172427.228348] audit: type=1334 audit(1676499953.670:121): prog-id=42 op=LOAD
+[172427.228367] audit: type=1334 audit(1676499953.673:122): prog-id=43 op=LOAD
+[172427.228376] audit: type=1334 audit(1676499953.673:123): prog-id=39 op=UNLOAD
+[172427.228382] audit: type=1334 audit(1676499953.673:124): prog-id=40 op=UNLOAD
+[172427.229683] audit: type=1130 audit(1676499953.673:125): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=shadow comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[172427.230273] audit: type=1130 audit(1676499953.673:126): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[172427.282559] audit: type=1131 audit(1676499953.726:127): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[172427.325855] audit: type=1130 audit(1676499953.770:128): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[172427.325868] audit: type=1131 audit(1676499953.770:129): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[172427.542651] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[172427.677980] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[172427.692999] Bluetooth: hci0: AOSP extensions version v0.96
+[172427.693010] Bluetooth: hci0: AOSP quality report is not supported
+[172432.168794] wlo1: authenticate with 7c:57:3c:b1:c7:11
+[172432.252189] kauditd_printk_skb: 2 callbacks suppressed
+[172432.252193] audit: type=1131 audit(1676499958.696:132): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[172432.338022] wlo1: send auth to 7c:57:3c:b1:c7:11 (try 1/3)
+[172432.338555] wlo1: authenticated
+[172432.345306] wlo1: associate with 7c:57:3c:b1:c7:11 (try 1/3)
+[172432.346019] wlo1: RX AssocResp from 7c:57:3c:b1:c7:11 (capab=0x1 status=0 aid=3)
+[172432.455778] wlo1: associated
+[172432.455901] wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 7c:57:3c:b1:c7:11
+[172432.456551] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[172433.577520] audit: type=1130 audit(1676499960.020:133): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[172443.598836] audit: type=1131 audit(1676499970.043:134): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[181486.907334] perf: interrupt took too long (2507 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[182697.419422] wlo1: disconnect from AP 7c:57:3c:b1:c7:11 for new auth to 7c:57:3c:b1:d9:71
+[182697.525784] wlo1: authenticate with 7c:57:3c:b1:d9:71
+[182697.710253] wlo1: send auth to 7c:57:3c:b1:d9:71 (try 1/3)
+[182697.710795] wlo1: authenticated
+[182697.716790] wlo1: associate with 7c:57:3c:b1:d9:71 (try 1/3)
+[182697.718033] wlo1: RX ReassocResp from 7c:57:3c:b1:d9:71 (capab=0x1 status=0 aid=3)
+[182697.827620] wlo1: associated
+[182697.827779] wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 7c:57:3c:b1:d9:71
+[182697.921568] audit: type=1130 audit(1676510224.363:135): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[182707.977227] audit: type=1131 audit(1676510234.420:136): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[182725.142559] wlo1: disconnect from AP 7c:57:3c:b1:d9:71 for new auth to 7c:57:3c:b0:b7:f1
+[182725.225229] wlo1: authenticate with 7c:57:3c:b0:b7:f1
+[182725.414945] wlo1: send auth to 7c:57:3c:b0:b7:f1 (try 1/3)
+[182725.415482] wlo1: authenticated
+[182725.420132] wlo1: associate with 7c:57:3c:b0:b7:f1 (try 1/3)
+[182725.420945] wlo1: RX ReassocResp from 7c:57:3c:b0:b7:f1 (capab=0x1 status=0 aid=7)
+[182725.530793] wlo1: associated
+[182725.530916] wlo1: Limiting TX power to 36 (36 - 0) dBm as advertised by 7c:57:3c:b0:b7:f1
+[182725.651346] audit: type=1130 audit(1676510252.093:137): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[182735.707478] audit: type=1131 audit(1676510262.150:138): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[183094.622566] rtw89_8852be 0000:03:00.0: FW status = 0xef001100
+[183094.622576] rtw89_8852be 0000:03:00.0: FW BADADDR = 0xff
+[183094.622581] rtw89_8852be 0000:03:00.0: FW EPC/RA = 0x0
+[183094.622585] rtw89_8852be 0000:03:00.0: FW MISC = 0xb8900635
+[183094.622590] rtw89_8852be 0000:03:00.0: R_AX_HALT_C2H = 0x1000
+[183094.622594] rtw89_8852be 0000:03:00.0: R_AX_SER_DBG_INFO = 0x1000000
+[183094.622601] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a033
+[183094.622617] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a03b
+[183094.622632] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a003
+[183094.622646] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0d7
+[183094.622661] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a107
+[183094.622676] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0fd
+[183094.622691] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a007
+[183094.622706] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0dd
+[183094.622720] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a00f
+[183094.622735] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0e7
+[183094.622750] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a01d
+[183094.622765] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0ff
+[183094.622780] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a027
+[183094.622794] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0ed
+[183094.622809] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a00d
+[183094.622822] rtw89_8852be 0000:03:00.0: --->
+                err=0x1000
+[183094.622832] rtw89_8852be 0000:03:00.0: R_AX_SER_DBG_INFO =0x01000000
+[183094.622841] rtw89_8852be 0000:03:00.0: R_AX_DMAC_ERR_ISR=0x00000040
+[183094.622845] rtw89_8852be 0000:03:00.0: R_AX_DMAC_ERR_IMR=0x00000000
+[183094.622849] rtw89_8852be 0000:03:00.0: R_AX_WDE_ERR_FLAG_CFG=0x00000000
+[183094.622853] rtw89_8852be 0000:03:00.0: R_AX_PLE_ERR_FLAG_CFG=0x83190000
+[183094.622858] rtw89_8852be 0000:03:00.0: R_AX_WDE_ERR_IMR=0xffffffff
+[183094.622862] rtw89_8852be 0000:03:00.0: R_AX_WDE_ERR_ISR=0x00000000
+[183094.622866] rtw89_8852be 0000:03:00.0: R_AX_PLE_ERR_IMR=0xffffffdf
+[183094.622870] rtw89_8852be 0000:03:00.0: R_AX_PLE_ERR_FLAG_ISR=0x02000000
+[183094.622873] rtw89_8852be 0000:03:00.0: R_AX_WD_CPUQ_OP_0=0x00000000
+[183094.622877] rtw89_8852be 0000:03:00.0: R_AX_WD_CPUQ_OP_1=0x00000000
+[183094.622881] rtw89_8852be 0000:03:00.0: R_AX_WD_CPUQ_OP_2=0x00000000
+[183094.622885] rtw89_8852be 0000:03:00.0: R_AX_WD_CPUQ_OP_STATUS=0x00000000
+[183094.622889] rtw89_8852be 0000:03:00.0: R_AX_PL_CPUQ_OP_0=0x00000000
+[183094.622893] rtw89_8852be 0000:03:00.0: R_AX_PL_CPUQ_OP_1=0x00000000
+[183094.622896] rtw89_8852be 0000:03:00.0: R_AX_PL_CPUQ_OP_2=0x00000000
+[183094.622900] rtw89_8852be 0000:03:00.0: R_AX_PL_CPUQ_OP_STATUS=0x00000000
+[183094.622904] rtw89_8852be 0000:03:00.0: R_AX_RXDMA_PKT_INFO_0=0x8000818d
+[183094.622908] rtw89_8852be 0000:03:00.0: R_AX_RXDMA_PKT_INFO_1=0x80008000
+[183094.622912] rtw89_8852be 0000:03:00.0: R_AX_RXDMA_PKT_INFO_2=0x81b580e6
+[183094.622920] rtw89_8852be 0000:03:00.0: R_AX_CMAC_ERR_ISR [0]=0x00000000
+[183094.622925] rtw89_8852be 0000:03:00.0: R_AX_CMAC_FUNC_EN [0]=0xf000803f
+[183094.622929] rtw89_8852be 0000:03:00.0: R_AX_CK_EN [0]=0xffffffff
+[183094.622934] rtw89_8852be 0000:03:00.0: R_AX_CMAC_ERR_IMR [0]=0x00000000
+[183094.622938] rtw89_8852be 0000:03:00.0: R_AX_RPQ_RXBD_IDX =0x00c300c3
+[183094.622942] rtw89_8852be 0000:03:00.0: R_AX_DBG_ERR_FLAG=0x00000000
+[183094.622945] rtw89_8852be 0000:03:00.0: R_AX_LBC_WATCHDOG=0x00000081
+[183094.622947] rtw89_8852be 0000:03:00.0: <---
+[183094.622950] rtw89_8852be 0000:03:00.0: SER catches error: 0x1000
+[183094.623309] rtw89_8852be 0000:03:00.0: FW status = 0xef001100
+[183094.623317] rtw89_8852be 0000:03:00.0: FW BADADDR = 0xff
+[183094.623321] rtw89_8852be 0000:03:00.0: FW EPC/RA = 0x0
+[183094.623326] rtw89_8852be 0000:03:00.0: FW MISC = 0xb8900635
+[183094.623330] rtw89_8852be 0000:03:00.0: R_AX_HALT_C2H = 0x1001
+[183094.623334] rtw89_8852be 0000:03:00.0: R_AX_SER_DBG_INFO = 0x1000000
+[183094.623342] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0f5
+[183094.623420] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a017
+[183094.623435] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0f3
+[183094.623450] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0d7
+[183094.623465] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a023
+[183094.623479] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a009
+[183094.623494] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0f3
+[183094.623509] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0d7
+[183094.623524] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a023
+[183094.623539] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a009
+[183094.623554] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a003
+[183094.623569] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0ef
+[183094.623584] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0d5
+[183094.623598] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a103
+[183094.623613] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb898a0e7
+[183094.623626] rtw89_8852be 0000:03:00.0: SER catches error: 0x1001
+[183094.623842] rtw89_8852be 0000:03:00.0: FW status = 0xef008100
+[183094.623851] rtw89_8852be 0000:03:00.0: FW BADADDR = 0xff
+[183094.623855] rtw89_8852be 0000:03:00.0: FW EPC/RA = 0x0
+[183094.623860] rtw89_8852be 0000:03:00.0: FW MISC = 0xb898828b
+[183094.623864] rtw89_8852be 0000:03:00.0: R_AX_HALT_C2H = 0x1002
+[183094.623868] rtw89_8852be 0000:03:00.0: R_AX_SER_DBG_INFO = 0xf1000000
+[183094.623876] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a9737
+[183094.623891] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a3aa7
+[183094.623906] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb893567f
+[183094.623921] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a91c3
+[183094.623935] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb8921555
+[183094.623950] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb892055d
+[183094.623965] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb8935f07
+[183094.623980] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb8935ec9
+[183094.623995] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a79c1
+[183094.624010] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb897d175
+[183094.624025] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a8d53
+[183094.624040] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89a97c3
+[183094.624055] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89ac9bf
+[183094.624069] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb8935ee3
+[183094.624084] rtw89_8852be 0000:03:00.0: [ERR]fw PC = 0xb89abe30
+[183094.624098] rtw89_8852be 0000:03:00.0: SER catches error: 0x1002
+[183094.677423] rtw89_8852be 0000:03:00.0: c2h class 1 func 3 not support
+[192374.268322] audit: type=1130 audit(1676519900.711:139): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192374.269151] wlo1: deauthenticating from 7c:57:3c:b0:b7:f1 by local choice (Reason: 3=DEAUTH_LEAVING)
+[192374.897863] PM: suspend entry (s2idle)
+[192374.906120] Filesystems sync: 0.008 seconds
+[192374.906606] Freezing user space processes ... (elapsed 0.023 seconds) done.
+[192374.930605] OOM killer disabled.
+[192374.930607] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[192374.932065] printk: Suspending console(s) (use no_console_suspend to debug)
+[192375.070538] ACPI: EC: interrupt blocked
+[192437.121134] ACPI: EC: interrupt unblocked
+[192450.189503] pci 0000:00:00.2: can't derive routing for PCI INT A
+[192450.189511] pci 0000:00:00.2: PCI INT A: no GSI
+[192450.190766] [drm] PCIE GART of 1024M enabled.
+[192450.190774] [drm] PTB located at 0x000000F47FC00000
+[192450.190797] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[192450.191195] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[192450.191609] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[192450.262302] nvme nvme0: 16/0/0 default/read/poll queues
+[192450.266504] nvme nvme0: Ignoring bogus Namespace Identifiers
+[192450.283573] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[192450.283746] [drm] JPEG decode initialized successfully.
+[192450.283985] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[192450.283988] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[192450.283989] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[192450.283990] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[192450.283991] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[192450.283992] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[192450.283993] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[192450.283994] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[192450.283995] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[192450.283996] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[192450.283997] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[192450.283998] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[192450.283999] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[192450.284000] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[192450.284001] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[192450.500710] ata1: SATA link down (SStatus 0 SControl 300)
+[192450.500711] ata2: SATA link down (SStatus 0 SControl 300)
+[192450.514078] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[192450.709876] OOM killer enabled.
+[192450.709880] Restarting tasks ... 
+[192450.710710] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[192450.712735] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[192450.712747] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[192450.715417] done.
+[192450.715495] random: crng reseeded on system resumption
+[192450.721536] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[192450.724386] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[192450.765031] audit: type=1131 audit(1676519976.680:140): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192450.766219] audit: type=1130 audit(1676519976.680:141): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192450.783048] PM: suspend exit
+[192450.841890] audit: type=1130 audit(1676519976.756:142): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192450.841905] audit: type=1131 audit(1676519976.756:143): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192451.098017] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[192451.232983] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[192451.248001] Bluetooth: hci0: AOSP extensions version v0.96
+[192451.248013] Bluetooth: hci0: AOSP quality report is not supported
+[192455.137638] wlo1: authenticate with 7c:57:3c:b0:b7:f1
+[192455.307158] wlo1: send auth to 7c:57:3c:b0:b7:f1 (try 1/3)
+[192455.307798] wlo1: authenticated
+[192455.311444] wlo1: associate with 7c:57:3c:b0:b7:f1 (try 1/3)
+[192455.312199] wlo1: RX AssocResp from 7c:57:3c:b0:b7:f1 (capab=0x1 status=0 aid=2)
+[192455.421967] wlo1: associated
+[192455.422093] wlo1: Limiting TX power to 36 (36 - 0) dBm as advertised by 7c:57:3c:b0:b7:f1
+[192455.422553] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[192455.498397] audit: type=1130 audit(1676519981.413:144): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192455.774959] audit: type=1131 audit(1676519981.690:145): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192465.541612] audit: type=1131 audit(1676519991.456:146): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192466.287061] audit: type=1130 audit(1676519992.200:147): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[192466.287964] wlo1: deauthenticating from 7c:57:3c:b0:b7:f1 by local choice (Reason: 3=DEAUTH_LEAVING)
+[192466.992149] PM: suspend entry (s2idle)
+[192467.001519] Filesystems sync: 0.009 seconds
+[192467.010545] Freezing user space processes ... (elapsed 0.001 seconds) done.
+[192467.012246] OOM killer disabled.
+[192467.012248] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[192467.013617] printk: Suspending console(s) (use no_console_suspend to debug)
+[192467.173840] ACPI: EC: interrupt blocked
+[210210.788738] ACPI: EC: interrupt unblocked
+[210221.848698] pci 0000:00:00.2: can't derive routing for PCI INT A
+[210221.848700] pci 0000:00:00.2: PCI INT A: no GSI
+[210221.850317] [drm] PCIE GART of 1024M enabled.
+[210221.850321] [drm] PTB located at 0x000000F47FC00000
+[210221.850337] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[210221.850385] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[210221.851525] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[210221.921230] nvme nvme0: 16/0/0 default/read/poll queues
+[210221.925695] nvme nvme0: Ignoring bogus Namespace Identifiers
+[210221.943891] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[210221.944401] [drm] JPEG decode initialized successfully.
+[210221.944623] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[210221.944628] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[210221.944631] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[210221.944634] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[210221.944636] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[210221.944639] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[210221.944641] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[210221.944643] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[210221.944645] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[210221.944648] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[210221.944650] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[210221.944653] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[210221.944655] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[210221.944657] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[210221.944659] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[210222.162504] ata2: SATA link down (SStatus 0 SControl 300)
+[210222.162503] ata1: SATA link down (SStatus 0 SControl 300)
+[210222.171414] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[210222.370959] OOM killer enabled.
+[210222.370963] Restarting tasks ... 
+[210222.372019] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[210222.374044] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[210222.374056] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[210222.374113] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[210222.374163] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[210222.374541] done.
+[210222.374567] random: crng reseeded on system resumption
+[210222.437874] PM: suspend exit
+[210222.440638] audit: type=1334 audit(1676537748.676:148): prog-id=44 op=LOAD
+[210222.440712] audit: type=1334 audit(1676537748.676:149): prog-id=45 op=LOAD
+[210222.440719] audit: type=1334 audit(1676537748.676:150): prog-id=46 op=LOAD
+[210222.440723] audit: type=1334 audit(1676537748.676:151): prog-id=42 op=UNLOAD
+[210222.440727] audit: type=1334 audit(1676537748.676:152): prog-id=43 op=UNLOAD
+[210222.441830] audit: type=1130 audit(1676537748.676:153): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=shadow comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[210222.442258] audit: type=1130 audit(1676537748.676:154): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[210222.516440] audit: type=1131 audit(1676537748.753:155): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[210222.586644] audit: type=1130 audit(1676537748.823:156): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[210222.586657] audit: type=1131 audit(1676537748.823:157): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[210222.747008] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[210222.882436] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[210222.897343] Bluetooth: hci0: AOSP extensions version v0.96
+[210222.897355] Bluetooth: hci0: AOSP quality report is not supported
+[210227.472795] wlo1: authenticate with 44:48:c1:46:bb:81
+[210227.641334] wlo1: send auth to 44:48:c1:46:bb:81 (try 1/3)
+[210227.642122] wlo1: authenticated
+[210227.642368] wlo1: associate with 44:48:c1:46:bb:81 (try 1/3)
+[210227.644202] wlo1: RX AssocResp from 44:48:c1:46:bb:81 (capab=0x1 status=0 aid=2)
+[210227.752949] wlo1: associated
+[210227.753026] wlo1: Limiting TX power to 36 (36 - 0) dBm as advertised by 44:48:c1:46:bb:81
+[210227.753656] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[210227.953736] kauditd_printk_skb: 3 callbacks suppressed
+[210227.953743] audit: type=1130 audit(1676537754.190:161): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[210238.023094] audit: type=1131 audit(1676537764.260:162): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[210239.801195] audit: type=1130 audit(1676537766.036:163): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[210239.801961] wlo1: deauthenticating from 44:48:c1:46:bb:81 by local choice (Reason: 3=DEAUTH_LEAVING)
+[210240.536539] PM: suspend entry (s2idle)
+[210240.545178] Filesystems sync: 0.008 seconds
+[210240.545737] Freezing user space processes ... (elapsed 0.006 seconds) done.
+[210240.552558] OOM killer disabled.
+[210240.552561] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[210240.554002] printk: Suspending console(s) (use no_console_suspend to debug)
+[210240.710811] ACPI: EC: interrupt blocked
+[223890.849530] ACPI: EC: interrupt unblocked
+[223901.911530] pci 0000:00:00.2: can't derive routing for PCI INT A
+[223901.911536] pci 0000:00:00.2: PCI INT A: no GSI
+[223901.912730] [drm] PCIE GART of 1024M enabled.
+[223901.912733] [drm] PTB located at 0x000000F47FC00000
+[223901.912746] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[223901.913064] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[223901.914182] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[223901.981780] nvme nvme0: 16/0/0 default/read/poll queues
+[223901.986017] nvme nvme0: Ignoring bogus Namespace Identifiers
+[223902.005603] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[223902.006199] [drm] JPEG decode initialized successfully.
+[223902.006419] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[223902.006421] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[223902.006422] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[223902.006423] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[223902.006424] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[223902.006424] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[223902.006425] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[223902.006426] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[223902.006427] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[223902.006428] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[223902.006429] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[223902.006430] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[223902.006430] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[223902.006431] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[223902.006432] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[223902.222880] ata1: SATA link down (SStatus 0 SControl 300)
+[223902.222881] ata2: SATA link down (SStatus 0 SControl 300)
+[223902.236112] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[223902.392428] OOM killer enabled.
+[223902.392433] Restarting tasks ... 
+[223902.393726] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[223902.395766] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[223902.395776] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[223902.396544] done.
+[223902.396572] random: crng reseeded on system resumption
+[223902.403654] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[223902.407365] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[223902.450486] audit: type=1131 audit(1676551428.640:164): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[223902.451337] audit: type=1130 audit(1676551428.640:165): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[223902.458560] PM: suspend exit
+[223902.497672] audit: type=1130 audit(1676551428.686:166): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[223902.497689] audit: type=1131 audit(1676551428.686:167): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[223902.779805] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[223902.915072] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[223902.931077] Bluetooth: hci0: AOSP extensions version v0.96
+[223902.931090] Bluetooth: hci0: AOSP quality report is not supported
+[223907.457606] audit: type=1131 audit(1676551433.646:168): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[223907.484124] wlo1: authenticate with 44:48:c1:46:bb:81
+[223907.663148] wlo1: send auth to 44:48:c1:46:bb:81 (try 1/3)
+[223907.664037] wlo1: authenticated
+[223907.667091] wlo1: associate with 44:48:c1:46:bb:81 (try 1/3)
+[223907.668689] wlo1: RX AssocResp from 44:48:c1:46:bb:81 (capab=0x1 status=0 aid=5)
+[223907.777247] wlo1: associated
+[223907.777377] wlo1: Limiting TX power to 36 (36 - 0) dBm as advertised by 44:48:c1:46:bb:81
+[223907.777992] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[223907.998152] audit: type=1130 audit(1676551434.186:169): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[223918.027438] audit: type=1131 audit(1676551444.216:170): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[223919.842754] audit: type=1130 audit(1676551446.030:171): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[223919.843807] wlo1: deauthenticating from 44:48:c1:46:bb:81 by local choice (Reason: 3=DEAUTH_LEAVING)
+[223920.581076] PM: suspend entry (s2idle)
+[223920.589231] Filesystems sync: 0.008 seconds
+[223920.597472] Freezing user space processes ... (elapsed 0.029 seconds) done.
+[223920.627242] OOM killer disabled.
+[223920.627244] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[223920.629099] printk: Suspending console(s) (use no_console_suspend to debug)
+[223920.799075] ACPI: EC: interrupt blocked
+[605359.322393] ACPI: EC: interrupt unblocked
+[605370.375576] pci 0000:00:00.2: can't derive routing for PCI INT A
+[605370.375579] pci 0000:00:00.2: PCI INT A: no GSI
+[605370.376897] [drm] PCIE GART of 1024M enabled.
+[605370.376901] [drm] PTB located at 0x000000F47FC00000
+[605370.376915] amdgpu 0000:04:00.0: amdgpu: SMU is resuming...
+[605370.377261] amdgpu 0000:04:00.0: amdgpu: dpm has been disabled
+[605370.378352] amdgpu 0000:04:00.0: amdgpu: SMU is resumed successfully!
+[605370.447795] nvme nvme0: 16/0/0 default/read/poll queues
+[605370.451992] nvme nvme0: Ignoring bogus Namespace Identifiers
+[605370.469928] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[605370.470456] [drm] JPEG decode initialized successfully.
+[605370.470678] amdgpu 0000:04:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[605370.470683] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[605370.470686] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[605370.470689] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[605370.470691] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[605370.470693] amdgpu 0000:04:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[605370.470695] amdgpu 0000:04:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[605370.470697] amdgpu 0000:04:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[605370.470700] amdgpu 0000:04:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[605370.470702] amdgpu 0000:04:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[605370.470705] amdgpu 0000:04:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[605370.470707] amdgpu 0000:04:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[605370.470709] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[605370.470711] amdgpu 0000:04:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[605370.470714] amdgpu 0000:04:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[605370.686138] ata2: SATA link down (SStatus 0 SControl 300)
+[605370.686147] ata1: SATA link down (SStatus 0 SControl 300)
+[605370.699982] usb 3-4: reset full-speed USB device number 3 using xhci_hcd
+[605370.727746] ideapad_acpi VPC2004:00: Unknown event: 12
+[605370.855885] OOM killer enabled.
+[605370.855887] Restarting tasks ... 
+[605370.856864] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000b lmp_ver=0b lmp_subver=8852
+[605370.858448] done.
+[605370.858471] random: crng reseeded on system resumption
+[605370.858850] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[605370.858859] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_fw.bin
+[605370.858894] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852bu_config.bin
+[605370.858933] Bluetooth: hci0: RTL: cfg_sz 6, total sz 38955
+[605370.919046] PM: suspend exit
+[605370.928144] audit: type=1131 audit(1676932901.636:172): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[605370.965439] audit: type=1130 audit(1676932901.676:173): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[605370.965452] audit: type=1131 audit(1676932901.676:174): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-suspend comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[605371.008987] audit: type=1334 audit(1676932901.716:175): prog-id=47 op=LOAD
+[605371.009058] audit: type=1334 audit(1676932901.716:176): prog-id=48 op=LOAD
+[605371.009065] audit: type=1334 audit(1676932901.716:177): prog-id=49 op=LOAD
+[605371.009068] audit: type=1334 audit(1676932901.716:178): prog-id=45 op=UNLOAD
+[605371.009072] audit: type=1334 audit(1676932901.716:179): prog-id=46 op=UNLOAD
+[605371.010440] audit: type=1130 audit(1676932901.716:180): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=shadow comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[605371.010929] audit: type=1130 audit(1676932901.716:181): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[605371.231809] Bluetooth: hci0: RTL: fw version 0xdfb791cb
+[605371.366891] Bluetooth: hci0: Failed to read codec capabilities (-22)
+[605371.381858] Bluetooth: hci0: AOSP extensions version v0.96
+[605371.381867] Bluetooth: hci0: AOSP quality report is not supported
+[605375.691624] wlo1: authenticate with 7c:57:3c:b0:b7:e1
+[605375.869146] wlo1: send auth to 7c:57:3c:b0:b7:e1 (try 1/3)
+[605375.869557] wlo1: authenticated
+[605375.871016] wlo1: associate with 7c:57:3c:b0:b7:e1 (try 1/3)
+[605375.871635] wlo1: RX AssocResp from 7c:57:3c:b0:b7:e1 (capab=0x1 status=0 aid=5)
+[605375.981295] wlo1: associated
+[605375.981369] wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 7c:57:3c:b0:b7:e1
+[605375.981875] IPv6: ADDRCONF(NETDEV_CHANGE): wlo1: link becomes ready
+[605376.061710] kauditd_printk_skb: 2 callbacks suppressed
+[605376.061716] audit: type=1131 audit(1676932906.773:184): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[605377.155294] audit: type=1130 audit(1676932907.863:185): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[605387.207938] audit: type=1131 audit(1676932917.916:186): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[605542.686557] audit: type=1100 audit(1676933073.393:187): pid=15689 uid=1000 auid=1000 ses=2 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605542.686662] audit: type=1101 audit(1676933073.393:188): pid=15689 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605542.687282] audit: type=1110 audit(1676933073.393:189): pid=15689 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605542.687353] audit: type=1105 audit(1676933073.393:190): pid=15689 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605542.695656] audit: type=1106 audit(1676933073.403:191): pid=15689 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605542.695742] audit: type=1104 audit(1676933073.403:192): pid=15689 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605584.290925] audit: type=1101 audit(1676933114.996:193): pid=15700 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605584.291596] audit: type=1110 audit(1676933115.000:194): pid=15700 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605584.291679] audit: type=1105 audit(1676933115.000:195): pid=15700 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605584.293450] audit: type=1106 audit(1676933115.000:196): pid=15700 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605584.293458] audit: type=1104 audit(1676933115.000:197): pid=15700 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605614.686906] audit: type=1101 audit(1676933145.393:198): pid=15706 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605614.687426] audit: type=1110 audit(1676933145.393:199): pid=15706 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605614.687493] audit: type=1105 audit(1676933145.393:200): pid=15706 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605614.695477] audit: type=1106 audit(1676933145.403:201): pid=15706 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605614.695512] audit: type=1104 audit(1676933145.403:202): pid=15706 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605627.780190] audit: type=1101 audit(1676933158.486:203): pid=15710 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605627.780780] audit: type=1110 audit(1676933158.486:204): pid=15710 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605627.780910] audit: type=1105 audit(1676933158.486:205): pid=15710 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605627.782121] audit: type=1106 audit(1676933158.490:206): pid=15710 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605627.782139] audit: type=1104 audit(1676933158.490:207): pid=15710 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605636.138824] audit: type=1101 audit(1676933166.846:208): pid=15714 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605636.139347] audit: type=1110 audit(1676933166.846:209): pid=15714 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605636.139422] audit: type=1105 audit(1676933166.846:210): pid=15714 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605636.147055] audit: type=1106 audit(1676933166.853:211): pid=15714 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605636.147086] audit: type=1104 audit(1676933166.853:212): pid=15714 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605692.886316] audit: type=1101 audit(1676933223.593:213): pid=15732 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605692.886835] audit: type=1110 audit(1676933223.593:214): pid=15732 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605692.886901] audit: type=1105 audit(1676933223.593:215): pid=15732 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605744.416815] audit: type=1106 audit(1676933275.123:216): pid=15732 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[605744.416868] audit: type=1104 audit(1676933275.123:217): pid=15732 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606785.192188] audit: type=1100 audit(1676934315.900:218): pid=16893 uid=1000 auid=1000 ses=2 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606785.192316] audit: type=1101 audit(1676934315.900:219): pid=16893 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606785.192979] audit: type=1110 audit(1676934315.900:220): pid=16893 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606785.193048] audit: type=1105 audit(1676934315.900:221): pid=16893 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606786.650865] audit: type=1106 audit(1676934317.360:222): pid=16893 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606786.650949] audit: type=1104 audit(1676934317.360:223): pid=16893 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606789.869331] audit: type=1101 audit(1676934320.576:224): pid=16897 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606789.869933] audit: type=1110 audit(1676934320.576:225): pid=16897 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606789.869998] audit: type=1105 audit(1676934320.576:226): pid=16897 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606791.107984] audit: type=1106 audit(1676934321.816:227): pid=16897 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606791.108009] audit: type=1104 audit(1676934321.816:228): pid=16897 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606793.791263] audit: type=1101 audit(1676934324.500:229): pid=16900 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606793.791825] audit: type=1110 audit(1676934324.500:230): pid=16900 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606793.791889] audit: type=1105 audit(1676934324.500:231): pid=16900 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606794.549407] audit: type=1106 audit(1676934325.256:232): pid=16900 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606794.549433] audit: type=1104 audit(1676934325.256:233): pid=16900 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606797.022374] audit: type=1101 audit(1676934327.730:234): pid=16903 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606797.022892] audit: type=1110 audit(1676934327.730:235): pid=16903 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606797.022958] audit: type=1105 audit(1676934327.730:236): pid=16903 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606854.854242] audit: type=1334 audit(1676934385.563:237): prog-id=23 op=UNLOAD
+[606854.858677] systemd[1]: systemd 253-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[606854.858763] systemd[1]: Detected architecture x86-64.
+[606854.897147] audit: type=1334 audit(1676934385.603:238): prog-id=50 op=LOAD
+[606854.897156] audit: type=1334 audit(1676934385.603:239): prog-id=50 op=UNLOAD
+[606854.897159] audit: type=1334 audit(1676934385.603:240): prog-id=51 op=LOAD
+[606854.897162] audit: type=1334 audit(1676934385.603:241): prog-id=51 op=UNLOAD
+[606854.897594] audit: type=1334 audit(1676934385.606:242): prog-id=52 op=LOAD
+[606854.897600] audit: type=1334 audit(1676934385.606:243): prog-id=52 op=UNLOAD
+[606854.897604] audit: type=1334 audit(1676934385.606:244): prog-id=53 op=LOAD
+[606854.897607] audit: type=1334 audit(1676934385.606:245): prog-id=53 op=UNLOAD
+[606854.897609] audit: type=1334 audit(1676934385.606:246): prog-id=54 op=LOAD
+[606855.590890] systemd[1]: bpf-lsm: LSM BPF program attached
+[606860.425678] kauditd_printk_skb: 46 callbacks suppressed
+[606860.425683] audit: type=1334 audit(1676934391.133:293): prog-id=78 op=LOAD
+[606860.425689] audit: type=1334 audit(1676934391.133:294): prog-id=73 op=UNLOAD
+[606860.425717] audit: type=1334 audit(1676934391.133:295): prog-id=79 op=LOAD
+[606860.425733] audit: type=1334 audit(1676934391.133:296): prog-id=80 op=LOAD
+[606860.425736] audit: type=1334 audit(1676934391.133:297): prog-id=74 op=UNLOAD
+[606860.425745] audit: type=1334 audit(1676934391.133:298): prog-id=75 op=UNLOAD
+[606860.426600] audit: type=1334 audit(1676934391.133:299): prog-id=81 op=LOAD
+[606860.426608] audit: type=1334 audit(1676934391.133:300): prog-id=70 op=UNLOAD
+[606860.426613] audit: type=1334 audit(1676934391.133:301): prog-id=82 op=LOAD
+[606860.426638] audit: type=1334 audit(1676934391.133:302): prog-id=83 op=LOAD
+[606913.680986] kauditd_printk_skb: 6 callbacks suppressed
+[606913.680991] audit: type=1106 audit(1676934444.390:309): pid=16903 uid=1000 auid=1000 ses=2 msg='op=PAM:session_close grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[606913.681019] audit: type=1104 audit(1676934444.390:310): pid=16903 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[612021.717970] audit: type=1100 audit(1676939552.427:311): pid=29438 uid=1000 auid=1000 ses=2 msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[612021.718054] audit: type=1101 audit(1676939552.427:312): pid=29438 uid=1000 auid=1000 ses=2 msg='op=PAM:accounting grantors=pam_unix,pam_permit,pam_time acct="gavin" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[612021.718583] audit: type=1110 audit(1676939552.427:313): pid=29438 uid=1000 auid=1000 ses=2 msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[612021.718642] audit: type=1105 audit(1676939552.427:314): pid=29438 uid=1000 auid=1000 ses=2 msg='op=PAM:session_open grantors=pam_systemd_home,pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
